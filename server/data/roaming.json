@@ -1,0 +1,5306 @@
+{
+  "source": "https://azercell.com",
+  "language": "en",
+  "segment": "B2C (Personal)",
+  "scraped_at": "2026-10-09",
+  "currency_note": "All prices in AZN, VAT inclusive as stated on site.",
+  "kind": "roaming",
+  "general_notes": [
+    "Activate roaming: prepaid *135*1#YES (deactivate *135*0#YES); postpaid SMS START to 8808 (STOP to deactivate), 0.01 AZN per SMS; or Azercell app.",
+    "Prepaid needs at least 0.10 AZN balance for roaming internet.",
+    "Roaming internet only on LTE (4G); for calls/SMS use 2G/3G partner networks.",
+    "Customer care from abroad: prepaid +994502002111 / +994124904949; postpaid +994506565000 / +994124905252; 45 free minutes then from 0.70 AZN/min."
+  ],
+  "families": [
+    {
+      "family": "Roaming internet packs",
+      "url": "https://azercell.com/en/personal/plans-and-services/roaming/roaming-data-packages.html",
+      "description": "Take advantage of available internet packages to avoid unexpected roaming charges",
+      "conditions": [
+        "Valid from the moment of activation.",
+        "Prepaid number must have active balance of at least 0.10 AZN to use internet in roaming.",
+        "Cannot buy a new roaming pack while data remains on the current one.",
+        "After pack volume is exhausted, usage charged at current tariff.",
+        "Use stops automatically when line is closed unilaterally or bilaterally.",
+        "Balance: BALANS to 2525 or *100#YES; postpaid balance info may be delayed in roaming."
+      ],
+      "notes": "Activation codes taken from the site's 'Get pack' button data attributes (USSD *100*<code>#YES; SMS <code> to 2525).",
+      "plans": [
+        {
+          "name": "500MB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/roaming-data-packages.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 10,
+            "currency": "AZN"
+          },
+          "validity": "3 days",
+          "included": {
+            "internet": {
+              "amount": 500,
+              "unit": "MB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*100*501#YES",
+            "sms": {
+              "text": "501",
+              "number": "2525"
+            },
+            "website": "enter number + OTP on site (active within 15 minutes)",
+            "app": "Azercell app → Internet → Roaming tab"
+          }
+        },
+        {
+          "name": "2GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/roaming-data-packages.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 25,
+            "currency": "AZN"
+          },
+          "validity": "10 days",
+          "included": {
+            "internet": {
+              "amount": 2,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*100*2020#YES",
+            "sms": {
+              "text": "2020",
+              "number": "2525"
+            },
+            "website": "enter number + OTP on site (active within 15 minutes)",
+            "app": "Azercell app → Internet → Roaming tab"
+          }
+        },
+        {
+          "name": "5GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/roaming-data-packages.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 50,
+            "currency": "AZN"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 5,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*100*5001#YES",
+            "sms": {
+              "text": "5001",
+              "number": "2525"
+            },
+            "website": "enter number + OTP on site (active within 15 minutes)",
+            "app": "Azercell app → Internet → Roaming tab"
+          }
+        },
+        {
+          "name": "10GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/roaming-data-packages.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 75,
+            "currency": "AZN"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 10,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*100*10001#YES",
+            "sms": {
+              "text": "10001",
+              "number": "2525"
+            },
+            "website": "enter number + OTP on site (active within 15 minutes)",
+            "app": "Azercell app → Internet → Roaming tab"
+          }
+        }
+      ],
+      "available_countries": {
+        "prepaid": [
+          {
+            "country": "Albania",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE AL; AL-02; 276-02",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Albania",
+            "operator": "One Albania (Telecom AMC)",
+            "display_name": "AMC AL; AMC Mobile; AL 01; 276 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Algeria",
+            "operator": "Mobilis (ATM)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Algeria",
+            "operator": "DJEZZY (Orascom)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Argentina",
+            "operator": "CLARO",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Argentina",
+            "operator": "Telefonica",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Australia",
+            "operator": "Singtel Optus",
+            "display_name": "YES OPTUS",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Australia",
+            "operator": "Vodafone",
+            "display_name": "Vodafone AU; 4G",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "H3G (Orange, Drei)",
+            "display_name": "One; 232-05; Orange A",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "Magenta (T-Mobile)",
+            "display_name": "T-Mobile A ; A03; 232-03; max.mobil; A-max",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "A1 Telecom - Mobilkom",
+            "display_name": "A1",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bahrain",
+            "operator": "VIVA (STC)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bahrain",
+            "operator": "BATELCO",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bangladesh",
+            "operator": "Grameenphone",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belarus",
+            "operator": "LIFE:) (Best)",
+            "display_name": "life:) BY; BeST; BeST BY",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belarus",
+            "operator": "A1 Telecom - Mobilkom,Velcom",
+            "display_name": "A1 BY; 257 01;",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belarus",
+            "operator": "MTS",
+            "display_name": "257 02; BY 02; MTS BY",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belgium",
+            "operator": "Proximus (Belgacom)",
+            "display_name": "B PROXIMUS; BEL PROXIMUS",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belgium",
+            "operator": "Base (KPN)",
+            "display_name": "BASE; Bel 20; 206-20",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bosnia and Herzegovina",
+            "operator": "HT Eronet",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bosnia and Herzegovina",
+            "operator": "BH Mobile",
+            "display_name": "BH Mobile",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Brazil",
+            "operator": "VIVO (Telefonica)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bulgaria",
+            "operator": "Yettel Bulgaria (former Telenor)",
+            "display_name": "Yettel BG",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bulgaria",
+            "operator": "A1 Telecom - Mobilkom,Mtel",
+            "display_name": "A1 BG; Mtel; 284 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bulgaria",
+            "operator": "Vivacom (BTC Mobile)",
+            "display_name": "Vivacom; CC284 NC03; BG 03; BTC Mobile;vivatel",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Rogers",
+            "display_name": "Rogers; 302 72; CAN72",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Bell Mobility",
+            "display_name": "TELUS, 3G Plus, CAN 880, 302880",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Telus",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "China",
+            "operator": "China Mobile",
+            "display_name": "CMCC; China Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "China",
+            "operator": "China Unicom",
+            "display_name": "UNICOM; China Unicom; CHN CUGSM; CUGSM; 460 01",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Costa Rica",
+            "operator": "CLARO",
+            "display_name": "712 03; Claro",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Croatia",
+            "operator": "T-Mobile (Hrvatske Telekomunikacije)",
+            "display_name": "219 01; HT HR; T-Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Croatia",
+            "operator": "Telemach (Tele2)",
+            "display_name": "HR TELE2; HR 21902",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Croatia",
+            "operator": "A1 Telecom - Mobilkom, VIP",
+            "display_name": "A1 HR; HR 10; 219 10",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Cyprus",
+            "operator": "PrimeTel",
+            "display_name": "PrimeTel",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Czech Republic",
+            "operator": "Vodafone",
+            "display_name": "Vodafone CZ; CZ-03; 230 03",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Czech Republic",
+            "operator": "T-Mobile",
+            "display_name": "T-Mobile CZ; TMO CZ",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Czech Republic",
+            "operator": "O2 (Telefonica)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Telenor (Sonofon)",
+            "display_name": "Telenor DK; Telia-Telenor DK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "H3G",
+            "display_name": "3 DK; 238 06; Hi3G Access AB",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Telia Mobil",
+            "display_name": "TELIA DK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Nuuday (TDC)",
+            "display_name": "TDC Mobil",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Egypt",
+            "operator": "Orange (Mobinil)",
+            "display_name": "Orange_Egypt",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Egypt",
+            "operator": "Etisalat",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Egypt",
+            "operator": "Vodafone (Misrfone)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "El Salvador",
+            "operator": "Telefonica Moviles",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Estonia",
+            "operator": "Telia (EMT)",
+            "display_name": "EE EMT; 248 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Estonia",
+            "operator": "ELISA (Radiolinja)",
+            "display_name": "RLE; elisa EE; 24802",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Estonia",
+            "operator": "Tele 2 (Ritabell)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Finland",
+            "operator": "ELISA (Radiolinja)",
+            "display_name": "FI elisa",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Finland",
+            "operator": "Telia (SONERA)",
+            "display_name": "Telia FI",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "Free mobile",
+            "display_name": "Free",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "Orange",
+            "display_name": "Orange F",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "Bouygues Telecom",
+            "display_name": "BOUYGTEL; BOUYGTEL-F; 208 20",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "SFR Altes",
+            "display_name": "F SFR",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Cellfie Mobile",
+            "display_name": "Beeline GE; GEO 04",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Silknet (Geocell)",
+            "display_name": "Geocell; Geo-Geocell; 282 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Magticom",
+            "display_name": "MagtiCom; 28202",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Germany",
+            "operator": "Telefonica (O2)(E-plus)",
+            "display_name": "o2-de; Interkom; 26207",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Germany",
+            "operator": "T-Mobile",
+            "display_name": "T-D1; D1; T-Mobile D;telekom.de; D1-Telekom",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Germany",
+            "operator": "Vodafone (D2 GmbH)",
+            "display_name": "Vodafone.de; Vodafone",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ghana",
+            "operator": "Telecel Ghana (Vodafone)",
+            "display_name": "Telecel; GH Vodafone; GH 02; ONEtouch; 62002",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Greece",
+            "operator": "Vodafone (PANAFON S.A.)",
+            "display_name": "GR VODAFONE; VODAFONE GR; PANAFON",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Greece",
+            "operator": "NOVA (Wind)",
+            "display_name": "NOVA; WIND GR; TELESTET; TIM GR",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Greece",
+            "operator": "OTE SA (Cosmote)",
+            "display_name": "C-OTE; GR COSMOTE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Guatemala",
+            "operator": "CLARO",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hong Kong",
+            "operator": "H3G",
+            "display_name": "3; IND HCPT; IND89; 51089",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hungary",
+            "operator": "T-Mobile (Westel)",
+            "display_name": "Telekom HU; T-Mobile H; T HU",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hungary",
+            "operator": "Vodafone",
+            "display_name": "Vodafone HU; Voda HU",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hungary",
+            "operator": "Yettel Hungary (former Telenor)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iceland",
+            "operator": "Vodafone",
+            "display_name": "Vodafone; TAL",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Gujarat",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Orissa",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel North East",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Maharashtra & Goa",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Assam",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Hexacom Rajasthan",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Tamil Nadu",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Madhya Pradesh",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Chennai",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Andhra Pradesh",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel West Bengal",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Bihar",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Delhi",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Haryana",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Himachal Pradesh",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Karnataka",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Kerala",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Kolkata",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Mumbai",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Punjab",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel UP East",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Uttar Pradesh West",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Indonesia",
+            "operator": "Indosat Ooredoo Hutchison",
+            "display_name": "3; IND HCPT; IND89; 51089",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Indonesia",
+            "operator": "Telkomsel",
+            "display_name": "TELKOMSEL; IND TELKOMSEL 3G",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iran",
+            "operator": "Rightel",
+            "display_name": "RighTel 3G",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iran",
+            "operator": "Irancell (MTN)",
+            "display_name": "MTNIrancell",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iran",
+            "operator": "Hamrahe Aval (MCI)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iraq",
+            "operator": "Zain (Iraqna, Orascom)",
+            "display_name": "Zain IQ, Zain 2G",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iraq",
+            "operator": "Asia Cell (Ooredoo)",
+            "display_name": "Asiacell; IRQ 05; 418-05",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "operator": "Vodafone",
+            "display_name": "Eircell - Network; vodafone IE; VODA",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "operator": "H3G (O2)",
+            "display_name": "H3G (O2)",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Isle of Man",
+            "operator": "MANX Telecom",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "Partner (Orange)",
+            "display_name": "IL ORANGE; ORANGE; 425 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "CellCom",
+            "display_name": "IL Cellcom; 425 02; IL 02",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "Hot Mobile Altes",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "Pelephone",
+            "display_name": "IL Pelephonel; Pelephone; 425 03",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "H3G; Wind Tre",
+            "display_name": "3 ITA; WINDTRE",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "Wind Tre",
+            "display_name": "3 ITA; WINDTRE",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "ILIAD (Free mobile)",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "TIM",
+            "display_name": "TIM",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "Vodafone (Omnitel)",
+            "display_name": "VODAFONE IT; OMNITEL; I OMNI",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Japan",
+            "operator": "SoftBank",
+            "display_name": "SoftBank; Vodafone JP; J-phone; 44020",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Japan",
+            "operator": "NTT Docomo",
+            "display_name": "DOCOMO; NTT DOCOMO",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Jersey",
+            "operator": "Jersey Telecom",
+            "display_name": "JT",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Jordan",
+            "operator": "Zain (Fastlink)",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kazakhstan",
+            "operator": "Beeline (Kartel)",
+            "display_name": "401 01; Beeline",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kazakhstan",
+            "operator": "Kcell",
+            "display_name": "KCELL KZ - 401 02",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kazakhstan",
+            "operator": "Tele 2 NEO (MTS)(Altel)",
+            "display_name": "NEO; 401 77; KAZ77",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kuwait",
+            "operator": "Zain",
+            "display_name": "Zain KW",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kuwait",
+            "operator": "STC (Viva)",
+            "display_name": "KT 04;VIVA; KTC; 419 04",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kuwait",
+            "operator": "Ooredoo (Wataniya)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kyrgyzstan",
+            "operator": "MegaCom (Alfa Telecom)",
+            "display_name": "MegaCom; 437 05; KGZ 05",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kyrgyzstan",
+            "operator": "Beeline",
+            "display_name": "Beeline / Bitel / KGZ01 / 437-01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Latvia",
+            "operator": "Tele 2 (Baltcom)",
+            "display_name": "BALTCOM; TELE2",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Latvia",
+            "operator": "BITE",
+            "display_name": "Bite LV;BITE",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Latvia",
+            "operator": "LMT",
+            "display_name": "LMT GSM;LV LMT GSM;LV LMT",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Liechtenstein",
+            "operator": "Swisscom",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Liechtenstein",
+            "operator": "FL1 (Mobilkom)",
+            "display_name": "mobilkom; 295 05; FL 1",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Liechtenstein",
+            "operator": "Salt (Orange)",
+            "display_name": "Orange FL; 29502",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Lithuania",
+            "operator": "BITE",
+            "display_name": "Bite LT; Bite Lietuva; Bite",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Lithuania",
+            "operator": "Tele 2",
+            "display_name": "TELE2",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Lithuania",
+            "operator": "Omnitel Telia",
+            "display_name": "Omnitel LT; Telia LT; 24601",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Luxembourg",
+            "operator": "Tango(Proximus)",
+            "display_name": "TANGO; L-77; 27077",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Luxembourg",
+            "operator": "POST (P&T)",
+            "display_name": "L-LUXGSM; L-P&T; L-27001",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Luxembourg",
+            "operator": "Orange (VOXmobile)",
+            "display_name": "Orange; VOXmobile; VOX.LU; 27099; L99",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malaysia",
+            "operator": "DiGi",
+            "display_name": "DiGi; DiGi 1800; MYMT18",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malaysia",
+            "operator": "Celcom",
+            "display_name": "Celcom , MY Celcom, 502 19",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malaysia",
+            "operator": "Maxis",
+            "display_name": "MY Maxis; MY 012; 50 212",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Maldives",
+            "operator": "Ooredoo",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malta",
+            "operator": "Epic Malta",
+            "display_name": "epic; MLT 01; 278 01; VODAFONE MLA; TELECELL",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Mexico",
+            "operator": "Telefonica (Pegaso)",
+            "display_name": "334 03; MOVISTAR; MX 03",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Moldova",
+            "operator": "Moldcell",
+            "display_name": "MOLDCELL; 259 02; MD02",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Moldova",
+            "operator": "Orange (Voxtel)",
+            "display_name": "ORANGE; ORANGE MD; VOXTEL; 259 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Montenegro",
+            "operator": "MTEL",
+            "display_name": "m:tel, m:tel Montenegro, 29703",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Morocco",
+            "operator": "IAM (Maroc Telecom)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Morocco",
+            "operator": "Inwi (Wana)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Mozambique",
+            "operator": "Vodacom",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Nepal",
+            "operator": "Ncell (Spice Nepal)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Netherlands",
+            "operator": "Vodafone (Libertel)",
+            "display_name": "Vodafone NL",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Netherlands",
+            "operator": "KPN Telecom (Telefort)",
+            "display_name": "PTT Telecom; KPN Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "New Zealand",
+            "operator": "Vodafone",
+            "display_name": "Vodafone",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "North Macedonia",
+            "operator": "A1 Telecom - Mobilkom, VIP",
+            "display_name": "A1 MK; COSMOFON; MTS AD;MKD 02; ONE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Norway",
+            "operator": "Telenor",
+            "display_name": "TELE N; TELENOR; TELENOR MOBIL; 242 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Norway",
+            "operator": "Telia (Netcom)",
+            "display_name": "NetCom; N Com;242-02; NetCom GSM",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Oman",
+            "operator": "Ooredoo (Nawras)",
+            "display_name": "nawras; OMN03; 422 03",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Oman",
+            "operator": "OmanTel (Oman Mobile)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Pakistan",
+            "operator": "Ufone",
+            "display_name": "PAKUF; 41003; Ufone; PK-Ufone",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Pakistan",
+            "operator": "Warid Telecom (Beeline)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Pakistan",
+            "operator": "Telenor",
+            "display_name": "Telenor PK; 410 06",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Palestine",
+            "operator": "Jawwal",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "P4 (Play)",
+            "display_name": "P4; PL-06; Play",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "Plus ( Polkomtel)",
+            "display_name": "PLUS GSM; PL-PLUS; PL-01; 2601",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "T-Mobile (EraGSM)",
+            "display_name": "260 02; PL 02; POL02; Era PL; T-Mobile.pl",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Portugal",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE P; VODAFONE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Portugal",
+            "operator": "MEO (TMN) Altes",
+            "display_name": "P TMN; 26806",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Puerto Rico",
+            "operator": "Claro",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Qatar",
+            "operator": "Vodafone",
+            "display_name": "Vodafone",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Qatar",
+            "operator": "Ooredoo (Q-tel)",
+            "display_name": "Ooredoo; Qatarnet; Qtel; 42701",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Romania",
+            "operator": "Vodafone",
+            "display_name": "Vodafone RO",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Romania",
+            "operator": "Cosmote (Cosmorom)",
+            "display_name": "RO 06; 226 06; COSMOTE;RO 03; 226 03",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Romania",
+            "operator": "Orange",
+            "display_name": "Orange; RO Orange",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "T2 (Tele2)",
+            "display_name": "Tele2;RUST2; RUS20; 25020",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "MegaFon (North West )",
+            "display_name": "MegaFon RUS; NORTH-WEST GSM RUS",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "MOTIV (Ekaterinburg-2000)",
+            "display_name": "MOTIV",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "BeeLine (VimpelCom,KB Impuls)",
+            "display_name": "Beeline; RUS-99; 250-99",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "MTS",
+            "display_name": "250 01; RUS 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Saudi Arabia",
+            "operator": "Zain",
+            "display_name": "Zain SA",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Saudi Arabia",
+            "operator": "Saudi Telecom",
+            "display_name": "STC",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Serbia",
+            "operator": "Yettel Serbia (former Telenor)",
+            "display_name": "SRB Yettel",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Serbia",
+            "operator": "A1 Telecom - Mobilkom, VIP",
+            "display_name": "A1 SRB; vip; YU05; SCG 05; Topnet Serbia",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Singapore",
+            "operator": "StarHub",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Singapore",
+            "operator": "Simba",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Singapore",
+            "operator": "Singtel Mobile",
+            "display_name": "Singtel; Singtel-G9",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Slovakia",
+            "operator": "T-Mobile(Slovak Telecom)",
+            "display_name": "Telekom SK, 23102, T-Mobile, EuroTel",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Slovakia",
+            "operator": "O2 (Telefonica)",
+            "display_name": "O2 - SK",
+            "supported_networks": [
+              "2G"
+            ]
+          },
+          {
+            "country": "Slovenia",
+            "operator": "Telemach (Tus Mobil)",
+            "display_name": "TELEMACH; Tusmobil",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Slovenia",
+            "operator": "A1 Telecom - Mobilkom",
+            "display_name": "A1 SI",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "South Africa",
+            "operator": "Vodacom",
+            "display_name": "Vodacom",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "South Korea",
+            "operator": "Olleh (KT Freetel)",
+            "display_name": "KT; olleh",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "South Korea",
+            "operator": "SK Telecom",
+            "display_name": "450 05; SK Telecom; KOR SK Telecom",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Movistar (Telefonica)",
+            "display_name": "movistar; 214 07; Telefonica",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Vodafone",
+            "display_name": "E-AIRTEL; E-VODAFONE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Yoigo (Xfera)",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Orange (Amena)",
+            "display_name": "RET MOV; E 03; AMENA; Orange ES",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sri Lanka",
+            "operator": "Dialog (MTN)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sri Lanka",
+            "operator": "Hutc (Etisalat)",
+            "display_name": "Tigo; Cellte; Etisalat; 41303",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "Telenor (Vodafone)",
+            "display_name": "Telenor SE; Sweden",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "Tele 2 (COMVIQ)",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "Telia",
+            "display_name": "Telia; Telia S; Sweden 3G;",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "H3G",
+            "display_name": "3 SE",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Switzerland",
+            "operator": "Sunrise",
+            "display_name": "Sunrise; d iAx Swiss; CH 02",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Switzerland",
+            "operator": "Salt (Orange)",
+            "display_name": "Salt",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Switzerland",
+            "operator": "Swisscom",
+            "display_name": "Swisscom; Swiss GSM; Swisscom FL",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Taiwan",
+            "operator": "Chunghwa",
+            "display_name": "Chunghwa",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Tajikistan",
+            "operator": "Tcell",
+            "display_name": "Tcell, Indigo TJK, 43602; Somoncom, 43601",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Tajikistan",
+            "operator": "Indigo (Tcell)",
+            "display_name": "Tcell, Indigo TJK, 43602; Somoncom, 43601",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Tajikistan",
+            "operator": "ZET Mobile (Tacom)",
+            "display_name": "Beeline TJ; Tajiktel",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Thailand",
+            "operator": "AIS",
+            "display_name": "TH GSM; TH AIS; TH AIS GSM; 520 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Thailand",
+            "operator": "truemove H (TA Orange)",
+            "display_name": "TRUE or TH99",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Turkiye",
+            "operator": "Turkcell",
+            "display_name": "TR TCELL; TURKCELL; TR TURKCELL",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Turkiye",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE TR",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Turkiye",
+            "operator": "Turk Telekom",
+            "display_name": "Turk Telekom",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ukraine",
+            "operator": "Kyivstar (URS Beeline)",
+            "display_name": "UA-KYIVSTAR; UKR 03; 255-03; KYIVSTAR",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ukraine",
+            "operator": "Vodafone (MTS,UMC)",
+            "display_name": "Vodafone UA; 25501",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Ukraine",
+            "operator": "Lifecell (Astelit)",
+            "display_name": "lifecell; UKR 06; 25506; UA ASTELIT",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Arab Emirates",
+            "operator": "DU",
+            "display_name": "du; UAE03; 42403",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Arab Emirates",
+            "operator": "Etisalat",
+            "display_name": "Etisalat; ETSLT",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE UK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "H3G",
+            "display_name": "3 UK",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "Virgin Media O2 (Telefonica)",
+            "display_name": "O2 - UK",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "United States of America",
+            "operator": "AT&T (Cingular)",
+            "display_name": "AT&T",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "United States of America",
+            "operator": "T-Mobile",
+            "display_name": "T-Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uruguay",
+            "operator": "CLARO (CTI)",
+            "display_name": "Claro Uruguay; CTI Uruguay; CTIURY",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uruguay",
+            "operator": "Antel",
+            "display_name": "ANTEL; 748 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uzbekistan",
+            "operator": "Beeline (Unitel, DAEWOO)",
+            "display_name": "Beeline UZ; Unitel; Daewoo GSM; 434 04",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uzbekistan",
+            "operator": "Uztelecom",
+            "display_name": "Uztelecom; Uzmobile",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uzbekistan",
+            "operator": "Ucell (Coscom)",
+            "display_name": "UCELL; 43405; COSCOM; UZB05; UZB Ucell",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Vietnam",
+            "operator": "MobiFone (VMS)",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Vietnam",
+            "operator": "Viettel Mobile",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          }
+        ],
+        "postpaid": [
+          {
+            "country": "Albania",
+            "operator": "One Albania (Telecom AMC)",
+            "display_name": "AMC AL; AMC Mobile; AL 01; 276 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Albania",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE AL; AL-02; 276-02",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Algeria",
+            "operator": "DJEZZY (Orascom)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Algeria",
+            "operator": "Mobilis (ATM)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Andorra",
+            "operator": "Andorra Telecom (STA)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Argentina",
+            "operator": "CLARO (AMX Argentina S.A)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Argentina",
+            "operator": "CLARO",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Argentina",
+            "operator": "Personel",
+            "display_name": null,
+            "supported_networks": [
+              "2G"
+            ]
+          },
+          {
+            "country": "Argentina",
+            "operator": "Telefonica",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Australia",
+            "operator": "Vodafone",
+            "display_name": "Vodafone AU; 4G",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Australia",
+            "operator": "Singtel Optus",
+            "display_name": "YES OPTUS",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "Magenta (T-Mobile)",
+            "display_name": "T-Mobile A ; A03; 232-03; max.mobil; A-max",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "A1 Telecom - Mobilkom",
+            "display_name": "A1",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "H3G (Orange, Drei)",
+            "display_name": "One; 232-05; Orange A",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Austria",
+            "operator": "T-Mobile (Max Mobil)",
+            "display_name": "T-Mobile A ; A03; 232-03; max.mobil;  A-max",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bahrain",
+            "operator": "BATELCO",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bahrain",
+            "operator": "VIVA (STC)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bangladesh",
+            "operator": "Grameenphone",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bangladesh",
+            "operator": "Robi (Hello Axiata)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belarus",
+            "operator": "LIFE:) (Best)",
+            "display_name": "life:) BY; BeST; BeST BY",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belarus",
+            "operator": "MTS",
+            "display_name": "257 02; BY 02; MTS BY",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belarus",
+            "operator": "A1 Telecom - Mobilkom,Velcom",
+            "display_name": "A1 BY; 257 01;",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belgium",
+            "operator": "Proximus (Belgacom)",
+            "display_name": "B PROXIMUS; BEL PROXIMUS",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belgium",
+            "operator": "Base (KPN)",
+            "display_name": "BASE; Bel 20; 206-20",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Belgium",
+            "operator": "MOBISTAR (Orange)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bosnia and Herzegovina",
+            "operator": "HT Eronet",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bosnia and Herzegovina",
+            "operator": "BH Mobile",
+            "display_name": "BH Mobile",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Brazil",
+            "operator": "CLARO",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Brazil",
+            "operator": "VIVO (Telefonica)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bulgaria",
+            "operator": "Yettel Bulgaria (former Telenor)",
+            "display_name": "Yettel BG",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bulgaria",
+            "operator": "Vivacom (BTC Mobile)",
+            "display_name": "Vivacom; CC284 NC03; BG 03; BTC Mobile;vivatel",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Bulgaria",
+            "operator": "A1 Telecom - Mobilkom,Mtel",
+            "display_name": "A1 BG; Mtel; 284 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Bell Mobility",
+            "display_name": "TELUS, 3G Plus, CAN 880, 302880",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Rogers",
+            "display_name": "Rogers; 302 72; CAN72",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Videotron",
+            "display_name": "Videotron",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Canada",
+            "operator": "Telus",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Chile",
+            "operator": "CLARO",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "China",
+            "operator": "China Mobile",
+            "display_name": "CMCC; China Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "China",
+            "operator": "China Unicom",
+            "display_name": "UNICOM; China Unicom; CHN CUGSM; CUGSM; 460 01",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Costa Rica",
+            "operator": "CLARO",
+            "display_name": "712 03; Claro",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Croatia",
+            "operator": "T-Mobile (Hrvatske Telekomunikacije)",
+            "display_name": "219 01; HT HR; T-Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Croatia",
+            "operator": "Telemach (Tele2)",
+            "display_name": "HR TELE2; HR 21902",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Croatia",
+            "operator": "A1 Telecom - Mobilkom, VIP",
+            "display_name": "A1 HR; HR 10; 219 10",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Cyprus",
+            "operator": "PrimeTel",
+            "display_name": "PrimeTel",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Cyprus",
+            "operator": "MTN (Salt group)",
+            "display_name": "280 10; CY 10; Areeba; MTN",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Czech Republic",
+            "operator": "O2 (Telefonica)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Czech Republic",
+            "operator": "T-Mobile",
+            "display_name": "T-Mobile CZ; TMO CZ",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Czech Republic",
+            "operator": "Vodafone",
+            "display_name": "Vodafone CZ; CZ-03; 230 03",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Democratic Republic of the Congo",
+            "operator": "Vodacom (ICE)",
+            "display_name": "VodaCom",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Telia Mobil",
+            "display_name": "TELIA DK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "H3G",
+            "display_name": "3 DK; 238 06; Hi3G Access AB",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Telenor (Sonofon)",
+            "display_name": "Telenor DK; Telia-Telenor DK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Nuuday (TDC)",
+            "display_name": "TDC Mobil",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Denmark",
+            "operator": "Telia Danmark Mobile",
+            "display_name": "TELIA DK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Egypt",
+            "operator": "Orange (Mobinil)",
+            "display_name": "Orange_Egypt",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Egypt",
+            "operator": "Etisalat",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Egypt",
+            "operator": "Vodafone (Misrfone)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "El Salvador",
+            "operator": "Telefonica Moviles",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Estonia",
+            "operator": "Tele 2 (Ritabell)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Estonia",
+            "operator": "Telia (EMT)",
+            "display_name": "EE EMT; 248 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Estonia",
+            "operator": "ELISA (Radiolinja)",
+            "display_name": "RLE; elisa EE; 24802",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Finland",
+            "operator": "Telia (SONERA)",
+            "display_name": "Telia FI",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Finland",
+            "operator": "ELISA (Radiolinja)",
+            "display_name": "FI elisa",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "Orange",
+            "display_name": "Orange F",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "SFR Altes",
+            "display_name": "F SFR",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "Bouygues Telecom",
+            "display_name": "BOUYGTEL; BOUYGTEL-F; 208 20",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "France",
+            "operator": "Free mobile",
+            "display_name": "Free",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Veon Georgia (Mobitel,Beeline)",
+            "display_name": "Beeline GE; GEO 04",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Magticom",
+            "display_name": "MagtiCom; 28202",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Cellfie Mobile",
+            "display_name": "Beeline GE; GEO 04",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Georgia",
+            "operator": "Silknet (Geocell)",
+            "display_name": "Geocell; Geo-Geocell; 282 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Germany",
+            "operator": "T-Mobile",
+            "display_name": "T-D1; D1; T-Mobile D;telekom.de; D1-Telekom",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Germany",
+            "operator": "Vodafone (D2 GmbH)",
+            "display_name": "Vodafone.de; Vodafone",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Germany",
+            "operator": "Telefonica (O2)(E-plus)",
+            "display_name": "o2-de; Interkom; 26207",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ghana",
+            "operator": "Telecel Ghana (Vodafone)",
+            "display_name": "Telecel; GH Vodafone; GH 02; ONEtouch; 62002",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Greece",
+            "operator": "OTE SA (Cosmote)",
+            "display_name": "C-OTE; GR COSMOTE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Greece",
+            "operator": "NOVA (Wind)",
+            "display_name": "NOVA; WIND GR; TELESTET; TIM GR",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Greece",
+            "operator": "Vodafone (PANAFON S.A.)",
+            "display_name": "GR VODAFONE; VODAFONE GR; PANAFON",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Guatemala",
+            "operator": "CLARO",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hong Kong",
+            "operator": "SmarTone",
+            "display_name": "SmarTone HK; SMC HK",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hong Kong",
+            "operator": "H3G",
+            "display_name": "3; IND HCPT; IND89; 51089",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hong Kong",
+            "operator": "CMHK (China Mobile)",
+            "display_name": "CMHK (China Mobile)",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hungary",
+            "operator": "Yettel Hungary (former Telenor)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hungary",
+            "operator": "Vodafone",
+            "display_name": "Vodafone HU; Voda HU",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Hungary",
+            "operator": "T-Mobile (Westel)",
+            "display_name": "Telekom HU; T-Mobile H; T HU",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iceland",
+            "operator": "Siminn (Landssiminn)",
+            "display_name": "IS Siminn; Siminn",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iceland",
+            "operator": "Vodafone",
+            "display_name": "Vodafone; TAL",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Kerala",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel West Bengal",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Assam",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Maharashtra & Goa",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel North East",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Haryana",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Orissa",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel UP East",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "BSNL (Bharat Sanchar Nigam Ltd )",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Gujarat",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Uttar Pradesh West",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Kolkata",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Bihar",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Mumbai",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Punjab",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Delhi",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Himachal Pradesh",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Karnataka",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Andhra Pradesh",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Chennai",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Madhya Pradesh",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Airtel Tamil Nadu",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "India",
+            "operator": "Bharti Hexacom Rajasthan",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Indonesia",
+            "operator": "Indosat Ooredoo Hutchison",
+            "display_name": "3; IND HCPT; IND89; 51089",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Indonesia",
+            "operator": "Telkomsel",
+            "display_name": "TELKOMSEL; IND TELKOMSEL 3G",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iran",
+            "operator": "Hamrahe Aval (MCI)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iran",
+            "operator": "Rightel",
+            "display_name": "RighTel 3G",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iran",
+            "operator": "Irancell (MTN)",
+            "display_name": "MTNIrancell",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iraq",
+            "operator": "Asia Cell (Ooredoo)",
+            "display_name": "Asiacell; IRQ 05; 418-05",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Iraq",
+            "operator": "Zain (Iraqna, Orascom)",
+            "display_name": "Zain IQ, Zain 2G",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "operator": "Vodafone",
+            "display_name": "Eircell - Network; vodafone IE; VODA",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "operator": "H3G (O2)",
+            "display_name": "H3G (O2)",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "operator": "EIR (Salt)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "operator": "Vodafone (Terrestrial Roaming)",
+            "display_name": "Eircell - Network; vodafone IE; VODA",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Isle of Man",
+            "operator": "MANX Telecom",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "Pelephone",
+            "display_name": "IL Pelephonel; Pelephone; 425 03",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "Partner (Orange)",
+            "display_name": "IL ORANGE; ORANGE; 425 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "CellCom",
+            "display_name": "IL Cellcom; 425 02; IL 02",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Israel",
+            "operator": "Hot Mobile Altes",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "ILIAD (Free mobile)",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "H3G; Wind Tre",
+            "display_name": "3 ITA; WINDTRE",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "TIM",
+            "display_name": "TIM",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "Wind Tre",
+            "display_name": "3 ITA; WINDTRE",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Italy",
+            "operator": "Vodafone (Omnitel)",
+            "display_name": "VODAFONE IT; OMNITEL; I OMNI",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Japan",
+            "operator": "NTT Docomo",
+            "display_name": "DOCOMO; NTT DOCOMO",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Japan",
+            "operator": "SoftBank",
+            "display_name": "SoftBank; Vodafone JP; J-phone; 44020",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Jersey",
+            "operator": "Jersey Telecom",
+            "display_name": "JT",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Jordan",
+            "operator": "Umniah",
+            "display_name": "UMNIAH; JOR 03",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Jordan",
+            "operator": "Zain (Fastlink)",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kazakhstan",
+            "operator": "Tele 2 NEO (MTS)(Altel)",
+            "display_name": "NEO; 401 77; KAZ77",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kazakhstan",
+            "operator": "Beeline (Kartel)",
+            "display_name": "401 01; Beeline",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kazakhstan",
+            "operator": "Kcell",
+            "display_name": "KCELL KZ - 401 02",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kuwait",
+            "operator": "Ooredoo (Wataniya)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kuwait",
+            "operator": "Zain",
+            "display_name": "Zain KW",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kuwait",
+            "operator": "STC (Viva)",
+            "display_name": "KT 04;VIVA; KTC; 419 04",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kyrgyzstan",
+            "operator": "O! (Nurtelecom)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kyrgyzstan",
+            "operator": "Beeline",
+            "display_name": "Beeline / Bitel / KGZ01 / 437-01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Kyrgyzstan",
+            "operator": "MegaCom (Alfa Telecom)",
+            "display_name": "MegaCom; 437 05; KGZ 05",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Latvia",
+            "operator": "BITE",
+            "display_name": "Bite LV;BITE",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Latvia",
+            "operator": "Tele 2 (Baltcom)",
+            "display_name": "BALTCOM; TELE2",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Latvia",
+            "operator": "LMT",
+            "display_name": "LMT GSM;LV LMT GSM;LV LMT",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Liechtenstein",
+            "operator": "Salt (Orange)",
+            "display_name": "Orange FL; 29502",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Liechtenstein",
+            "operator": "FL1 (Mobilkom)",
+            "display_name": "mobilkom; 295 05; FL 1",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Liechtenstein",
+            "operator": "Swisscom",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Lithuania",
+            "operator": "Tele 2",
+            "display_name": "TELE2",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Lithuania",
+            "operator": "Omnitel Telia",
+            "display_name": "Omnitel LT; Telia LT; 24601",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Lithuania",
+            "operator": "BITE",
+            "display_name": "Bite LT; Bite Lietuva; Bite",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Luxembourg",
+            "operator": "POST (P&T)",
+            "display_name": "L-LUXGSM; L-P&T; L-27001",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Luxembourg",
+            "operator": "Orange (VOXmobile)",
+            "display_name": "Orange; VOXmobile; VOX.LU; 27099; L99",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Luxembourg",
+            "operator": "Tango(Proximus)",
+            "display_name": "TANGO; L-77; 27077",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Macao",
+            "operator": "H3G",
+            "display_name": null,
+            "supported_networks": [
+              "3G"
+            ]
+          },
+          {
+            "country": "Malaysia",
+            "operator": "Maxis",
+            "display_name": "MY Maxis; MY 012; 50 212",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malaysia",
+            "operator": "DiGi",
+            "display_name": "DiGi; DiGi 1800; MYMT18",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malaysia",
+            "operator": "Celcom",
+            "display_name": "Celcom , MY Celcom, 502 19",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Maldives",
+            "operator": "Ooredoo",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malta",
+            "operator": "Epic Malta",
+            "display_name": "epic; MLT 01; 278 01; VODAFONE MLA; TELECELL",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Malta",
+            "operator": "MELITA",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Mexico",
+            "operator": "Telefonica (Pegaso)",
+            "display_name": "334 03; MOVISTAR; MX 03",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Mexico",
+            "operator": "CLARO Telcel",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Moldova",
+            "operator": "Moldcell",
+            "display_name": "MOLDCELL; 259 02; MD02",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Moldova",
+            "operator": "Orange (Voxtel)",
+            "display_name": "ORANGE; ORANGE MD; VOXTEL; 259 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Montenegro",
+            "operator": "One (Telenor)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Montenegro",
+            "operator": "MTEL",
+            "display_name": "m:tel, m:tel Montenegro, 29703",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Montenegro",
+            "operator": "Crnogorski Telekom (T-Mobile, Monet)",
+            "display_name": "Telekom.me; MNE 02; 297 02",
+            "supported_networks": [
+              "2G"
+            ]
+          },
+          {
+            "country": "Morocco",
+            "operator": "Inwi (Wana)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Morocco",
+            "operator": "IAM (Maroc Telecom)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Morocco",
+            "operator": "Meditel",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Mozambique",
+            "operator": "Vodacom",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Nepal",
+            "operator": "Ncell (Spice Nepal)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Netherlands",
+            "operator": "KPN Telecom (Telefort)",
+            "display_name": "PTT Telecom; KPN Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Netherlands",
+            "operator": "Vodafone (Libertel)",
+            "display_name": "Vodafone NL",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Netherlands",
+            "operator": "Odido (T-Mobile)",
+            "display_name": "T-Mobile NL; Ben NL; 204 16",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "New Zealand",
+            "operator": "Vodafone",
+            "display_name": "Vodafone",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "North Macedonia",
+            "operator": "A1 Telecom - Mobilkom, VIP",
+            "display_name": "A1 MK; COSMOFON; MTS AD;MKD 02; ONE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "North Macedonia",
+            "operator": "Telecom (T-Mobile)",
+            "display_name": "T-MOBILE MK; TMO MK; 294 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Norway",
+            "operator": "Telenor",
+            "display_name": "TELE N; TELENOR; TELENOR MOBIL; 242 01",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Norway",
+            "operator": "Telia (Netcom)",
+            "display_name": "NetCom; N Com;242-02; NetCom GSM",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Oman",
+            "operator": "OmanTel (Oman Mobile)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Oman",
+            "operator": "Ooredoo (Nawras)",
+            "display_name": "nawras; OMN03; 422 03",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Pakistan",
+            "operator": "Warid Telecom (Beeline)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Pakistan",
+            "operator": "Telenor",
+            "display_name": "Telenor PK; 410 06",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Pakistan",
+            "operator": "Ufone",
+            "display_name": "PAKUF; 41003; Ufone; PK-Ufone",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Palestine",
+            "operator": "Jawwal",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Panama",
+            "operator": "Movistar (Telefonica Moviles)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Panama",
+            "operator": "Cable& Wireless",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Paraguay",
+            "operator": "CLARO (CTI)",
+            "display_name": "P TMN; 26806",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Peru",
+            "operator": "Movistar (Telefonica Moviles)",
+            "display_name": "716 06; PER 06; TEM; Movistar",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "T-Mobile (EraGSM)",
+            "display_name": "260 02; PL 02; POL02; Era PL; T-Mobile.pl",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "Orange (IDEA)",
+            "display_name": "Orange; Orange PL; Idea; PL Idea; 260-03; PL 03",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "Plus ( Polkomtel)",
+            "display_name": "PLUS GSM; PL-PLUS; PL-01; 2601",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Poland",
+            "operator": "P4 (Play)",
+            "display_name": "P4; PL-06; Play",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Portugal",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE P; VODAFONE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Portugal",
+            "operator": "NOS (Optimus)",
+            "display_name": "Optimus; P Optimus; P03",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Portugal",
+            "operator": "MEO (TMN) Altes",
+            "display_name": "P TMN; 26806",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Puerto Rico",
+            "operator": "Liberty",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Puerto Rico",
+            "operator": "Claro",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Qatar",
+            "operator": "Ooredoo (Q-tel)",
+            "display_name": "Ooredoo; Qatarnet; Qtel; 42701",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Qatar",
+            "operator": "Vodafone",
+            "display_name": "Vodafone",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Romania",
+            "operator": "Cosmote (Cosmorom)",
+            "display_name": "RO 06; 226 06; COSMOTE;RO 03; 226 03",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Romania",
+            "operator": "Vodafone",
+            "display_name": "Vodafone RO",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Romania",
+            "operator": "Orange",
+            "display_name": "Orange; RO Orange",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "BeeLine (VimpelCom,KB Impuls)",
+            "display_name": "Beeline; RUS-99; 250-99",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "MegaFon (North West )",
+            "display_name": "MegaFon RUS; NORTH-WEST GSM RUS",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "T2 (Tele2)",
+            "display_name": "Tele2;RUST2; RUS20; 25020",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "MOTIV (Ekaterinburg-2000)",
+            "display_name": "MOTIV",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Russia",
+            "operator": "MTS",
+            "display_name": "250 01; RUS 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Saudi Arabia",
+            "operator": "Saudi Telecom",
+            "display_name": "STC",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Saudi Arabia",
+            "operator": "Zain",
+            "display_name": "Zain SA",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Serbia",
+            "operator": "A1 Telecom - Mobilkom, VIP",
+            "display_name": "A1 SRB; vip; YU05; SCG 05; Topnet Serbia",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Serbia",
+            "operator": "Yettel Serbia (former Telenor)",
+            "display_name": "SRB Yettel",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Singapore",
+            "operator": "StarHub",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Singapore",
+            "operator": "Singtel Mobile",
+            "display_name": "Singtel; Singtel-G9",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Singapore",
+            "operator": "Simba",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Slovakia",
+            "operator": "O2 (Telefonica)",
+            "display_name": "O2 - SK",
+            "supported_networks": [
+              "2G"
+            ]
+          },
+          {
+            "country": "Slovakia",
+            "operator": "T-Mobile(Slovak Telecom)",
+            "display_name": "Telekom SK, 23102, T-Mobile, EuroTel",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Slovakia",
+            "operator": "Orange (Globtel)",
+            "display_name": "Orange; SVK GT; 231 01",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Slovenia",
+            "operator": "Telemach (Tus Mobil)",
+            "display_name": "TELEMACH; Tusmobil",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Slovenia",
+            "operator": "A1 Telecom - Mobilkom",
+            "display_name": "A1 SI",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "South Africa",
+            "operator": "Vodacom",
+            "display_name": "Vodacom",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "South Korea",
+            "operator": "SK Telecom",
+            "display_name": "450 05; SK Telecom; KOR SK Telecom",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "South Korea",
+            "operator": "Olleh (KT Freetel)",
+            "display_name": "KT; olleh",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Vodafone",
+            "display_name": "E-AIRTEL; E-VODAFONE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Yoigo (Xfera)",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Movistar (Telefonica)",
+            "display_name": "movistar; 214 07; Telefonica",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Spain",
+            "operator": "Orange (Amena)",
+            "display_name": "RET MOV; E 03; AMENA; Orange ES",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sri Lanka",
+            "operator": "SLT Mobitel",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Sri Lanka",
+            "operator": "Dialog (MTN)",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sri Lanka",
+            "operator": "Hutc (Etisalat)",
+            "display_name": "Tigo; Cellte; Etisalat; 41303",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "H3G",
+            "display_name": "3 SE",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "Telenor (Vodafone)",
+            "display_name": "Telenor SE; Sweden",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "Telia",
+            "display_name": "Telia; Telia S; Sweden 3G;",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "operator": "Tele 2 (COMVIQ)",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Switzerland",
+            "operator": "Salt (Orange)",
+            "display_name": "Salt",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Switzerland",
+            "operator": "Sunrise",
+            "display_name": "Sunrise; d iAx Swiss; CH 02",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Switzerland",
+            "operator": "Swisscom",
+            "display_name": "Swisscom; Swiss GSM; Swisscom FL",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Taiwan",
+            "operator": "FarEasTone",
+            "display_name": "FET; FarEasTone; TWN FET",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Taiwan",
+            "operator": "Chunghwa",
+            "display_name": "Chunghwa",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "Tajikistan",
+            "operator": "ZET Mobile (Tacom)",
+            "display_name": "Beeline TJ; Tajiktel",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Tajikistan",
+            "operator": "Indigo (Tcell)",
+            "display_name": "Tcell, Indigo TJK, 43602; Somoncom, 43601",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Tanzania",
+            "operator": "Vodacom",
+            "display_name": "64004",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Thailand",
+            "operator": "AIS",
+            "display_name": "TH GSM; TH AIS; TH AIS GSM; 520 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Thailand",
+            "operator": "truemove H (TA Orange)",
+            "display_name": "TRUE or TH99",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Thailand",
+            "operator": "DTAC",
+            "display_name": "dtac TriNet; DTAC; 52005",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Tunisia",
+            "operator": "Ooredoo (Tunisiana)",
+            "display_name": null,
+            "supported_networks": [
+              "2G"
+            ]
+          },
+          {
+            "country": "Turkiye",
+            "operator": "Turkcell",
+            "display_name": "TR TCELL; TURKCELL; TR TURKCELL",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Turkiye",
+            "operator": "Turk Telekom",
+            "display_name": "Turk Telekom",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Turkiye",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE TR",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ukraine",
+            "operator": "Vodafone (MTS,UMC)",
+            "display_name": "Vodafone UA; 25501",
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Ukraine",
+            "operator": "Kyivstar (URS Beeline)",
+            "display_name": "UA-KYIVSTAR; UKR 03; 255-03; KYIVSTAR",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Ukraine",
+            "operator": "Lifecell (Astelit)",
+            "display_name": "lifecell; UKR 06; 25506; UA ASTELIT",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Arab Emirates",
+            "operator": "Etisalat",
+            "display_name": "Etisalat; ETSLT",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Arab Emirates",
+            "operator": "DU",
+            "display_name": "du; UAE03; 42403",
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "Virgin Media O2 (Telefonica)",
+            "display_name": "O2 - UK",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "Everything Everywhere",
+            "display_name": "EE",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "Vodafone",
+            "display_name": "VODAFONE UK",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "operator": "H3G",
+            "display_name": "3 UK",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "United States of America",
+            "operator": "AT&T (Cingular)",
+            "display_name": "AT&T",
+            "supported_networks": [
+              "LTE"
+            ]
+          },
+          {
+            "country": "United States of America",
+            "operator": "T-Mobile",
+            "display_name": "T-Mobile",
+            "supported_networks": [
+              "2G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uruguay",
+            "operator": "Antel",
+            "display_name": "ANTEL; 748 01",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uruguay",
+            "operator": "CLARO (CTI)",
+            "display_name": "Claro Uruguay; CTI Uruguay; CTIURY",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uzbekistan",
+            "operator": "Beeline (Unitel, DAEWOO)",
+            "display_name": "Beeline UZ; Unitel; Daewoo GSM; 434 04",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uzbekistan",
+            "operator": "Uztelecom",
+            "display_name": "Uztelecom; Uzmobile",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Uzbekistan",
+            "operator": "Ucell (Coscom)",
+            "display_name": "UCELL; 43405; COSCOM; UZB05; UZB Ucell",
+            "supported_networks": [
+              "2G",
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Vietnam",
+            "operator": "Vinaphone",
+            "display_name": null,
+            "supported_networks": [
+              "2G",
+              "3G"
+            ]
+          },
+          {
+            "country": "Vietnam",
+            "operator": "MobiFone (VMS)",
+            "display_name": null,
+            "supported_networks": [
+              "3G",
+              "LTE"
+            ]
+          },
+          {
+            "country": "Vietnam",
+            "operator": "Viettel Mobile",
+            "display_name": null,
+            "supported_networks": [
+              "LTE"
+            ]
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Is it possible to activate an Internet package while roaming abroad?",
+          "answer": "Azercell allows its subscribers to activate their Internet package in roaming using SMS, USSD-code or through the “Azercell” application."
+        },
+        {
+          "question": "Is it possible to purchase multiple roaming internet packages at the same time?",
+          "answer": "Subscriber will not be able to purchase a new roaming data pack if there is internet data remaining on the current roaming pack."
+        },
+        {
+          "question": "How can I check my internet balance?",
+          "answer": "To check the internet balance, it is required to send BALANS to 2525 or dial *100#YES .\nIt is also possible to get balance information via \" Azercell \" app.\nBalance information for postpaid subscribers may be delayed in roaming as they are received from the external operators serving them."
+        },
+        {
+          "question": "How is the internet usage calculated when the package volume is exhausted?",
+          "answer": "If the internet volume provided within the pack expires during the session, the service fee will be calculated according to the current tariff."
+        },
+        {
+          "question": "Is the use of the roaming Internet package limited in case of two-way line closure?",
+          "answer": "When the subscriber line is closed unilaterally or bilaterally, the use of the roaming Internet package is automatically stopped."
+        }
+      ]
+    },
+    {
+      "family": "Travel packs",
+      "url": "https://azercell.com/en/personal/plans-and-services/roaming/tourist-tariffs.html",
+      "description": "A unique offer for our country's guests (foreign citizens visiting Azerbaijan; used inside Azerbaijan, not while roaming)",
+      "conditions": [
+        "Only on Azercell numbers; activate at Azercell Exclusive offices or official dealers with a foreign passport.",
+        "Numbers valid 30 days; auto-deactivated after 30 days.",
+        "Not available while roaming.",
+        "Cannot be used while countrywide tariffs/packages are active.",
+        "Additional internet packages cannot be activated within Travel packs.",
+        "Bonuses activated immediately; in-pack billing 60 sec calls, 51KB internet (as stated).",
+        "Balance: call 2112 or empty SMS to 2112."
+      ],
+      "out_of_bundle_rates": {
+        "onnet_call_per_min": 0.06,
+        "offnet_call_per_min": 0.06,
+        "international_call_per_min": 0.5,
+        "internet_per_mb": 0.05,
+        "sms": 0.05,
+        "currency": "AZN",
+        "call_billing_interval": "60 sec",
+        "internet_interval": "512KB"
+      },
+      "plans": [
+        {
+          "name": "30GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/tourist-tariffs.html",
+          "price": {
+            "amount": 39,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 30,
+              "unit": "GB"
+            },
+            "voice_minutes": 100,
+            "voice_scope": "Countrywide and International calls",
+            "sms": null,
+            "other": [
+              {
+                "item": "SIM or eSIM",
+                "note": "Provided for free"
+              }
+            ]
+          },
+          "activation": {
+            "sms": {
+              "text": "T39",
+              "number": "7575"
+            },
+            "ussd": "*750*4*039#YES"
+          }
+        },
+        {
+          "name": "60GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/tourist-tariffs.html",
+          "price": {
+            "amount": 59,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 60,
+              "unit": "GB"
+            },
+            "voice_minutes": 200,
+            "voice_scope": "Countrywide and International calls",
+            "sms": null,
+            "other": [
+              {
+                "item": "SIM or eSIM",
+                "note": "Provided for free"
+              }
+            ]
+          },
+          "activation": {
+            "sms": {
+              "text": "T59",
+              "number": "7575"
+            },
+            "ussd": "*750*4*059#YES"
+          }
+        },
+        {
+          "name": "120GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/tourist-tariffs.html",
+          "price": {
+            "amount": 79,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 120,
+              "unit": "GB"
+            },
+            "voice_minutes": 300,
+            "voice_scope": "Countrywide and International calls",
+            "sms": null,
+            "other": [
+              {
+                "item": "SIM or eSIM",
+                "note": "Provided for free"
+              }
+            ]
+          },
+          "activation": {
+            "sms": {
+              "text": "T79",
+              "number": "7575"
+            },
+            "ussd": "*750*4*079#YES"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "How to activate the service?",
+          "answer": "A foreign citizen can activate the service by applying to any Azercell Exclusive offices or our official dealers with a foreign passport."
+        },
+        {
+          "question": "How to deactivate the service?",
+          "answer": "The service is automatically deactivated after 30 days."
+        },
+        {
+          "question": "Is the service active while roaming?",
+          "answer": "The service is not available while roaming."
+        },
+        {
+          "question": "When Travel packs cannot be activated?",
+          "answer": "While countrywide tariffs and packages are active, it is not possible to use Travel packs."
+        },
+        {
+          "question": "During what period is it possible to use the bonuses provided within the Travel packs?",
+          "answer": "Bonuses can be used within 30 days."
+        },
+        {
+          "question": "Are the bonuses provided within the Travel packages activated immediately?",
+          "answer": "Bonuses provided on packages are activated immediately."
+        },
+        {
+          "question": "How is the rate determined when bonuses are used up early or expired?",
+          "answer": "If the bonuses provided are not renewed, the service fee for the traffic will be as follows:\nOn-net calls (1 min.) – 0.06 AZN;\nOff-net calls (1 min.) – 0.06 AZN;\nInternational calls (1 min.) – 0.50 AZN;\nBilling interval for calls - 60 sec.;\nInternet 1MB – 0.05 AZN (interval 512KB);\nSMS – 0.05 AZN."
+        },
+        {
+          "question": "What is the billing interval for calls and internet provided within the package?",
+          "answer": "The calculation interval within the pack is 60 seconds for calls and 51KB for internet."
+        },
+        {
+          "question": "How to find balance information?",
+          "answer": "To find out the balance, you need to call 2112 or send an empty SMS to the same number."
+        }
+      ]
+    },
+    {
+      "family": "Countries and prices (featured countries only)",
+      "url": "https://azercell.com/en/personal/plans-and-services/roaming/countries-and-prices.html",
+      "notes": "Site shows per-country pay-as-you-go rates via a search box; only the 3 'Top countries' pages were scraped. These are rates, not packs.",
+      "plans": [
+        {
+          "name": "Turkiye",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/countries-and-prices/turkiye.html",
+          "currency": "AZN",
+          "charging_interval": {
+            "calls": "60 seconds",
+            "internet": "30KB"
+          },
+          "operators": {
+            "prepaid": [
+              {
+                "Operator": "Turkcell",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.00",
+                "Outgoing calls to Azerbaijan": "1.00",
+                "Outgoing calls to other destinations": "1.00",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.15",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Vodafone",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.00",
+                "Outgoing calls to Azerbaijan": "1.00",
+                "Outgoing calls to other destinations": "1.00",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.15",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Turk Telekom",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.00",
+                "Outgoing calls to Azerbaijan": "1.00",
+                "Outgoing calls to other destinations": "1.00",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.15",
+                "Internet Pack": "✅"
+              }
+            ],
+            "postpaid": [
+              {
+                "Operator": "Turk Telekom",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.00",
+                "Outgoing calls to Azerbaijan": "1.00",
+                "Outgoing calls to other destinations": "1.00",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.15",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Turkcell",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.00",
+                "Outgoing calls to Azerbaijan": "1.00",
+                "Outgoing calls to other destinations": "1.00",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.15",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Vodafone",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.00",
+                "Outgoing calls to Azerbaijan": "1.00",
+                "Outgoing calls to other destinations": "1.00",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.15",
+                "Internet Pack": "✅"
+              }
+            ]
+          },
+          "notes": "Pay-as-you-go roaming rates per operator as shown in the site's table (AZN; unit for Internet column is not labeled on the page)."
+        },
+        {
+          "name": "Georgia",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/countries-and-prices/georgia.html",
+          "currency": "AZN",
+          "charging_interval": {
+            "calls": "60 seconds",
+            "internet": "30KB"
+          },
+          "operators": {
+            "prepaid": [
+              {
+                "Operator": "Cellfie Mobile",
+                "Supported networks": [
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "0.80",
+                "Outgoing calls to Azerbaijan": "0.80",
+                "Outgoing calls to other destinations": "0.80",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.10",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Magticom",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "0.80",
+                "Outgoing calls to Azerbaijan": "0.80",
+                "Outgoing calls to other destinations": "0.80",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.10",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Silknet (Geocell)",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "0.80",
+                "Outgoing calls to Azerbaijan": "0.80",
+                "Outgoing calls to other destinations": "0.80",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.10",
+                "Internet Pack": "✅"
+              }
+            ],
+            "postpaid": [
+              {
+                "Operator": "Magticom",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "0.80",
+                "Outgoing calls to Azerbaijan": "0.80",
+                "Outgoing calls to other destinations": "0.80",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.10",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Silknet (Geocell)",
+                "Supported networks": [
+                  "2G",
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "0.80",
+                "Outgoing calls to Azerbaijan": "0.80",
+                "Outgoing calls to other destinations": "0.80",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.10",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Cellfie Mobile",
+                "Supported networks": [
+                  "3G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "0.80",
+                "Outgoing calls to Azerbaijan": "0.80",
+                "Outgoing calls to other destinations": "0.80",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.10",
+                "Internet Pack": "✅"
+              }
+            ]
+          },
+          "notes": "Pay-as-you-go roaming rates per operator as shown in the site's table (AZN; unit for Internet column is not labeled on the page)."
+        },
+        {
+          "name": "Germany",
+          "url": "https://azercell.com/en/personal/plans-and-services/roaming/countries-and-prices/germany.html",
+          "currency": "AZN",
+          "charging_interval": {
+            "calls": "60 seconds",
+            "internet": "30KB"
+          },
+          "operators": {
+            "prepaid": [
+              {
+                "Operator": "T-Mobile",
+                "Supported networks": [
+                  "2G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.50",
+                "Outgoing calls to Azerbaijan": "1.50",
+                "Outgoing calls to other destinations": "1.50",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.20",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Vodafone (D2 GmbH)",
+                "Supported networks": [
+                  "2G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.50",
+                "Outgoing calls to Azerbaijan": "1.50",
+                "Outgoing calls to other destinations": "1.50",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.20",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Telefonica (O2)(E-plus)",
+                "Supported networks": [
+                  "2G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.50",
+                "Outgoing calls to Azerbaijan": "1.50",
+                "Outgoing calls to other destinations": "1.50",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.20",
+                "Internet Pack": "✅"
+              }
+            ],
+            "postpaid": [
+              {
+                "Operator": "Telefonica (O2)(E-plus)",
+                "Supported networks": [
+                  "2G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.50",
+                "Outgoing calls to Azerbaijan": "1.50",
+                "Outgoing calls to other destinations": "1.50",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.20",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "T-Mobile",
+                "Supported networks": [
+                  "2G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.50",
+                "Outgoing calls to Azerbaijan": "1.50",
+                "Outgoing calls to other destinations": "1.50",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.20",
+                "Internet Pack": "✅"
+              },
+              {
+                "Operator": "Vodafone (D2 GmbH)",
+                "Supported networks": [
+                  "2G",
+                  "LTE"
+                ],
+                "Outgoing calls within the country": "1.50",
+                "Outgoing calls to Azerbaijan": "1.50",
+                "Outgoing calls to other destinations": "1.50",
+                "Incoming calls": "0.50",
+                "Internet": "0.99",
+                "SMS": "0.20",
+                "Internet Pack": "✅"
+              }
+            ]
+          },
+          "notes": "Pay-as-you-go roaming rates per operator as shown in the site's table (AZN; unit for Internet column is not labeled on the page)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How to activate roaming?",
+      "answer": "To activate roaming:\nPostpaid subscribers can send SMS with the keyword START to 8808 . The cost of each SMS to 8808 is 0.01 AZN.\nPrepaid subscribers can dial *135*1#YES ."
+    },
+    {
+      "question": "Where can I find information about roaming tariffs?",
+      "answer": "To get information about tariffs, enter the name of the country you are going to travel in the search section at the top of the page."
+    },
+    {
+      "question": "What precautions should be taken to avoid roaming issues before traveling?",
+      "answer": "Check whether Azercell has a roaming partnership with a telecom operator in the destination country before you travel.\nIf you are a postpaid subscriber, ensure that there are no outstanding charges on your account. To check the number balance, it is required to call or send an empty (blank) SMS to 650 . The price for incoming SMS from 650 is 0.02 AZN."
+    },
+    {
+      "question": "How to top-up the balance while abroad?",
+      "answer": "The following Azercell services can be used to top up the balance while abroad:\nOnline payment\nScratch cards"
+    },
+    {
+      "question": "What are the rules for making calls in roaming?",
+      "answer": "To make a call while roaming, use the international dialing format:\n[+] [country code] [city code / mobile operator code] [number]."
+    },
+    {
+      "question": "How to call the Customer Care Center in roaming?",
+      "answer": "If you have any questions while roaming, you can call Customer Care Center in the following format:\nP ostpaid subscribers : +994124905252, +994506565000;\nP repaid subscribers : +994124904949, +994502002111;\nCorporate subscribers : +994124904940;994506050000;\nCalls to the mentioned numbers will be charged from 0.70 AZN per minute after the expiration of the 45-minute free call period.\nCall interval – 1 second."
+    },
+    {
+      "question": "Which actions should be taken if the internet is not working in roaming?",
+      "answer": "If the internet does not work in roaming, the following operations should be considered:\nPrepaid subscribers should check the availability of 0.1 AZN in number balance;\nRoaming status should be checked in menu section of the device;\n3G network should be activated and the word \"INTERNET\" (uppercase) added to APN settings."
+    },
+    {
+      "question": "How do I deactivate Roaming?",
+      "answer": "Postpaid subscribers can send SMS with the keyword STOP to 8808 . The cost of each SMS sent to 8808 is 0.01 AZN.\nPrepaid subscribers need to dial *135*0#YES ."
+    }
+  ]
+}

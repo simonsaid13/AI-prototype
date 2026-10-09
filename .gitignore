@@ -41,3 +41,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# AI feedback ratings collected by the local server
+server/feedback.jsonl

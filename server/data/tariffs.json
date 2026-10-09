@@ -1,0 +1,1554 @@
+{
+  "source": "https://azercell.com",
+  "language": "en",
+  "segment": "B2C (Personal)",
+  "scraped_at": "2026-10-09",
+  "currency_note": "All prices in AZN, VAT inclusive as stated on site.",
+  "kind": "tariff",
+  "general_notes": [
+    "Usage opportunities are for personal use only (no SPAM/advertising, illegal telecom services, etc.).",
+    "Prepaid tariff change: via Kabinetim or Azercell Exclusive offices. Postpaid: send tariff name to 650, Kabinetim, or Exclusive offices.",
+    "Postpaid invoice cycles: 5th–5th and 25th–25th of each month."
+  ],
+  "families": [
+    {
+      "family": "Alfa Plan",
+      "line_type": "postpaid",
+      "description": "Choices tailored to different needs",
+      "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/alfa.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid.html",
+      "eligibility": "Any postpaid subscriber with the status of an individual (physical person).",
+      "conditions": [
+        "All prices VAT inclusive",
+        "One-time 50% discount when subscribing to the Alfa Plan tariff for the first time.",
+        "Validity: 1 billing cycle; unused minutes, internet and application traffic are not carried over.",
+        "Discounted (12/24-month contract) subscription available by visiting Azercell Exclusive offices, obtaining a new number and signing a contract.",
+        "In-tariff minutes cannot be used for roaming, international calls, special codes (dialed with *) and short numbers.",
+        "Call billing interval: 60 seconds.",
+        "Bonus info: send empty SMS to 650."
+      ],
+      "out_of_bundle_rates": {
+        "domestic_call_per_min": 0.1,
+        "internet_per_mb": 0.05,
+        "sms_domestic": 0.1,
+        "sms_international": 0.25,
+        "currency": "AZN"
+      },
+      "plans": [
+        {
+          "name": "Alfa Plan 12GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/alfa.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 20,
+            "currency": "AZN",
+            "period": "month (1 billing cycle)"
+          },
+          "validity": "1 billing cycle",
+          "included": {
+            "internet": {
+              "amount": 12,
+              "unit": "GB"
+            },
+            "voice_minutes": 1200,
+            "voice_scope": "Countrywide calls",
+            "sms": null,
+            "other": []
+          },
+          "discounts": [
+            {
+              "discount_percent": 10,
+              "condition": "12-month contract"
+            },
+            {
+              "discount_percent": 20,
+              "condition": "24-month contract"
+            }
+          ],
+          "benefits": [
+            "Free SIM card replacement",
+            "Free Soclir service",
+            "Free Itemized bill service (İzahcell, e-İzahcell)",
+            "Birthday campaign",
+            "Auto-blocking of promotional messages (5010)"
+          ],
+          "activation": {
+            "sms": {
+              "text": "A12",
+              "number": "650",
+              "cost_azn": 0.02
+            },
+            "ussd": "*750*4*112#",
+            "app": "Azercell app"
+          }
+        },
+        {
+          "name": "Alfa Plan 25GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/alfa.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 30,
+            "currency": "AZN",
+            "period": "month (1 billing cycle)"
+          },
+          "validity": "1 billing cycle",
+          "included": {
+            "internet": {
+              "amount": 25,
+              "unit": "GB"
+            },
+            "voice_minutes": 2500,
+            "voice_scope": "Countrywide calls",
+            "sms": null,
+            "other": []
+          },
+          "discounts": [
+            {
+              "discount_percent": 10,
+              "condition": "12-month contract"
+            },
+            {
+              "discount_percent": 20,
+              "condition": "24-month contract"
+            }
+          ],
+          "benefits": [
+            "Resolution of requests by priorities",
+            "Free SIM card replacement",
+            "Free Soclir service",
+            "Free Itemized bill service (İzahcell, e-İzahcell)",
+            "Birthday campaign",
+            "Auto-blocking of promotional messages (5010)"
+          ],
+          "activation": {
+            "sms": {
+              "text": "A25",
+              "number": "650",
+              "cost_azn": 0.02
+            },
+            "ussd": "*750*4*125#",
+            "app": "Azercell app"
+          }
+        },
+        {
+          "name": "Alfa Plan 40GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/alfa.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 40,
+            "currency": "AZN",
+            "period": "month (1 billing cycle)"
+          },
+          "validity": "1 billing cycle",
+          "included": {
+            "internet": {
+              "amount": 40,
+              "unit": "GB"
+            },
+            "voice_minutes": 4000,
+            "voice_scope": "Countrywide calls",
+            "sms": null,
+            "other": []
+          },
+          "discounts": [
+            {
+              "discount_percent": 10,
+              "condition": "12-month contract"
+            },
+            {
+              "discount_percent": 20,
+              "condition": "24-month contract"
+            }
+          ],
+          "benefits": [
+            "Free calls to the Call center 24/7 (*1111, 6565)",
+            "Resolution of requests by priorities",
+            "Free SIM card replacement",
+            "Free Soclir service",
+            "Free Itemized bill service (İzahcell, e-İzahcell)",
+            "Fast track service at exclusive shops",
+            "Birthday campaign",
+            "Auto-blocking of promotional messages (5010)"
+          ],
+          "activation": {
+            "sms": {
+              "text": "A40",
+              "number": "650",
+              "cost_azn": 0.02
+            },
+            "ussd": "*750*4*140#",
+            "app": "Azercell app"
+          }
+        },
+        {
+          "name": "Alfa Plan 60GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/alfa.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 60,
+            "currency": "AZN",
+            "period": "month (1 billing cycle)"
+          },
+          "validity": "1 billing cycle",
+          "included": {
+            "internet": {
+              "amount": 60,
+              "unit": "GB"
+            },
+            "voice_minutes": 5000,
+            "voice_scope": "Countrywide calls",
+            "sms": null,
+            "other": [
+              {
+                "item": "Roaming internet",
+                "amount": 1,
+                "unit": "GB"
+              },
+              {
+                "item": "WhatsApp",
+                "amount": 5,
+                "unit": "GB"
+              },
+              {
+                "item": "Social Media",
+                "amount": 5,
+                "unit": "GB"
+              }
+            ]
+          },
+          "discounts": [
+            {
+              "discount_percent": 10,
+              "condition": "12-month contract"
+            },
+            {
+              "discount_percent": 20,
+              "condition": "24-month contract"
+            }
+          ],
+          "benefits": [
+            "Free calls to the Call center 24/7 (*1111, 6565)",
+            "Priority service for Call center requests",
+            "Personal curator service",
+            "Resolution of requests by priorities",
+            "Callback service",
+            "Mobile Chat with curator",
+            "Free SIM card replacement",
+            "Free Soclir service",
+            "Free Itemized bill service (İzahcell, e-İzahcell)",
+            "Fast track service at exclusive shops",
+            "Birthday campaign",
+            "Auto-blocking of promotional messages (5010)",
+            "21-day grace period for invoice payment"
+          ],
+          "activation": {
+            "sms": {
+              "text": "A60",
+              "number": "650",
+              "cost_azn": 0.02
+            },
+            "ussd": "*750*4*1160#",
+            "app": "Azercell app"
+          }
+        },
+        {
+          "name": "Alfa Plan 120GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/alfa.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 90,
+            "currency": "AZN",
+            "period": "month (1 billing cycle)"
+          },
+          "validity": "1 billing cycle",
+          "included": {
+            "internet": {
+              "amount": 120,
+              "unit": "GB"
+            },
+            "voice_minutes": 10000,
+            "voice_scope": "Countrywide calls",
+            "sms": null,
+            "other": [
+              {
+                "item": "Roaming internet",
+                "amount": 3,
+                "unit": "GB"
+              },
+              {
+                "item": "WhatsApp",
+                "amount": 10,
+                "unit": "GB"
+              },
+              {
+                "item": "Social Media",
+                "amount": 10,
+                "unit": "GB"
+              }
+            ]
+          },
+          "discounts": [
+            {
+              "discount_percent": 10,
+              "condition": "12-month contract"
+            },
+            {
+              "discount_percent": 20,
+              "condition": "24-month contract"
+            }
+          ],
+          "benefits": [
+            "Free calls to the Call center 24/7 (*1111, 6565)",
+            "Priority service for Call center requests",
+            "Personal curator service",
+            "Resolution of requests by priorities",
+            "Callback service",
+            "Mobile Chat with curator",
+            "Free Mobile Customer Service",
+            "Free SIM card replacement",
+            "Free Soclir service",
+            "Free Itemized bill service (İzahcell, e-İzahcell)",
+            "Fast track service at exclusive shops",
+            "Birthday campaign",
+            "Auto-blocking of promotional messages (5010)",
+            "21-day grace period for invoice payment"
+          ],
+          "activation": {
+            "sms": {
+              "text": "A120",
+              "number": "650",
+              "cost_azn": 0.02
+            },
+            "ussd": "*750*4*1120#",
+            "app": "Azercell app"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who can subscribe to the “Alfa Plan” tariff package?",
+          "answer": "Any postpaid subscriber with the status of an individual (physical person) is eligible to subscribe to the “Alfa Plan” tariff package."
+        },
+        {
+          "question": "Is a discount applied when subscribing to the “Alfa Plan” tariff for the first time?",
+          "answer": "Yes, when subscribing to the “Alfa Plan” tariff for the first time, a one-time 50% discount is provided."
+        },
+        {
+          "question": "When are bonuses provided upon subscription to the “Alfa Plan” tariff?",
+          "answer": "Regardless of the time when the number is subscribed to the “Alfa Plan” tariff package, bonuses are provided after 00:00 (midnight), and a corresponding SMS notification is sent. If, at the time of sending the request to subscribe to the “Alfa Plan” tariff package, less than 5 days remain until the billing date, the ability to join the package and all in-package bonuses are provided together after 00:00 on the next billing date. If more than 5 days remain until the billing date, the ability to join the package and the in-package bonuses are provided after 00:00 on the day of subscription."
+        },
+        {
+          "question": "How can the tariff package be activated?",
+          "answer": "The “Alfa Plan” tariff can be activated by sending the relevant keywords to the short number 650:\nFor “Alfa Plan 12GB” — A12;\nFor “Alfa Plan 25GB” — A25;\nFor “Alfa Plan 40GB” — A40;\nFor “Alfa Plan 60GB” — A60;\nFor “Alfa Plan 120GB” — A120.\nThe cost of 1 SMS to 650 is 0.02 AZN. It is also possible to activate any “Alfa Plan” tariff package by dialing the corresponding USSD code or via the Azercell application:\n*750*4*112# for “Alfa Plan 12GB”\n*750* 4*125# for “Alfa Plan 25GB”\n*750* 4*140# for “Alfa Plan 40GB”\n*750* 4*1160# for “Alfa Plan 60GB”\n*750* 4*1120# for “Alfa Plan 120GB”\nWhen subscribing to the “Alfa Plan” tariff package, the subscription fee is deducted from the balance, while the bonuses are credited to the account."
+        },
+        {
+          "question": "What is the validity period of the tariff package?",
+          "answer": "The validity period of the “Alfa Plan” tariff is 1 billing cycle. Unused minutes, internet traffic, and application traffic are not carried over to the next month."
+        },
+        {
+          "question": "How can information about bonuses be obtained?",
+          "answer": "Information about tariff bonuses can be checked at any time by sending an empty SMS to the short number 650."
+        },
+        {
+          "question": "How are charges calculated after the bonuses within the “Alfa Plan” tariff are exhausted?",
+          "answer": "If the bonuses provided within the “Alfa Plan” tariff are exhausted, but the validity period of the package has not yet expired, the service charges are calculated as follows:\n1 minute of a domestic call costs 0.10 AZN;\n1 MB = 0.05 AZN. • 1 SMS = 0.10 AZN (International: 0.25 AZN)."
+        },
+        {
+          "question": "Which package has priority when using additional internet packages?",
+          "answer": "Priority is given to internet packages in all cases except for the 56GB package."
+        },
+        {
+          "question": "What is the call billing interval?",
+          "answer": "The billing interval for calls is 60 seconds."
+        },
+        {
+          "question": "Are bonuses reset when switching to another tariff package?",
+          "answer": "When switching from the “Alfa Plan” tariff package to another tariff, the existing bonuses of the current package are canceled."
+        },
+        {
+          "question": "For which calls can the minutes provided within the tariff not be used?",
+          "answer": "The minutes provided within the tariff cannot be used for roaming, international calls, special codes (dialed with *), and short numbers. Also, within the “Call Me” service, if a call is received on the subscriber’s phone, the corresponding amount is deducted from the balance, not from the minutes provided within the tariff."
+        },
+        {
+          "question": "Is sending a request to 650 chargeable?",
+          "answer": "Yes, 0.02 AZN is deducted from the balance for each request sent to the number 650."
+        },
+        {
+          "question": "How is the price of in-tariff SMS calculated?",
+          "answer": "The cost of 1 domestic SMS is 0.10 AZN, while the cost of 1 international SMS is 0.25 AZN."
+        },
+        {
+          "question": "From which balance is social media traffic deducted within the tariff?",
+          "answer": "Priority is first given to the traffic allocated for social media, and then to the main package of the tariff. After the main package resources are exhausted and if there is no active internet package, the subscriber is redirected to a dedicated page with available options."
+        },
+        {
+          "question": "Is it possible to use remaining bonuses when changing the tariff?",
+          "answer": "The usage period of the tariff (including bonuses) is calculated according to the relevant billing cycle:\nfor the 1st billing cycle — from the 5th of each month to the 5th of the next month;\nfor the 2nd billing cycle — from the 25th of each month to the 25th of the next month. During the last hours of the billing cycle, technical work is initiated to prepare for the next billing process. On the billing day (the 4th or 24th of each month), from approximately 23:00, the usage of services is reflected in the next invoice.\nDuring the billing process, the minutes and internet traffic provided upon payment of the monthly subscription fee are attributed to the next billing period.\nIn case of a tariff change, if from the next billing cycle no bonus minutes and internet traffic are available on the number, the service charges for usage carried out until 23:59:59 during the billing process are deducted from the bonuses provided within the previous (current) tariff. After the billing process is completed, the calculation is carried out based on the new tariff package activated on the number."
+        },
+        {
+          "question": "Is it possible to subscribe to the “Alfa Plan” tariff with a discount?",
+          "answer": "Yes, when signing a 12- or 24-month contract, it is possible to receive a 10% discount for 12 months and a 20% discount for 24 months on the monthly subscription fee."
+        },
+        {
+          "question": "How can a customer subscribe to the “Alfa Plan” tariff with a discount?",
+          "answer": "In order to subscribe to the “Alfa Plan” tariff with a discount, the subscriber can visit Azercell Exclusive offices, obtain a new number, and subscribe by signing a contract."
+        }
+      ]
+    },
+    {
+      "family": "DigiMax",
+      "line_type": "prepaid",
+      "description": "With your rhythm!",
+      "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid.html",
+      "eligibility": "Any Prepaid line subscriber.",
+      "conditions": [
+        "All prices VAT inclusive",
+        "Auto-renews at end of validity if balance is sufficient; otherwise system retries until there is enough balance.",
+        "Package can be renewed no more than once a day (24 hours); bonuses of existing package canceled after renewal.",
+        "Social-media traffic is used first, then main package.",
+        "Bonus minutes cannot be used for roaming, international calls, special-coded (*) and short numbers.",
+        "Bonus SMS cannot be used for international, special-coded (*) and short numbers.",
+        "Call billing interval: 60 seconds; internet calculation interval 512KB.",
+        "Bonus info: empty SMS to 2112 (0.15 AZN), *111*1*7#YES (0.15 AZN), or Azercell app.",
+        "Detailed info: send 'D' to 7575."
+      ],
+      "out_of_bundle_rates": {
+        "countrywide_call_per_min": 0.19,
+        "internet_per_mb": 0.05,
+        "sms_domestic": 0.1,
+        "sms_international": 0.25,
+        "currency": "AZN"
+      },
+      "related_internet_packs_shown": [
+        {
+          "name": "3GB",
+          "price": 9
+        },
+        {
+          "name": "6GB",
+          "price": 12
+        },
+        {
+          "name": "12GB",
+          "price": 19
+        }
+      ],
+      "plans": [
+        {
+          "name": "DigiMax Daily",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 1,
+            "currency": "AZN",
+            "period": "1 day"
+          },
+          "validity": "1 day",
+          "included": {
+            "internet": {
+              "amount": 300,
+              "unit": "MB"
+            },
+            "voice_minutes": 30,
+            "voice_scope": "Countrywide calls",
+            "sms": 15,
+            "sms_scope": "Countrywide SMS",
+            "other": []
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "D1",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*200#YES"
+          },
+          "notes": "Can be activated any time, bonuses given immediately; renewed within 48 hours after first connection, then automatically every night after 00:00."
+        },
+        {
+          "name": "DigiMax Weekly",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 4,
+            "currency": "AZN",
+            "period": "7 days"
+          },
+          "validity": "7 days",
+          "included": {
+            "internet": {
+              "amount": 1,
+              "unit": "GB"
+            },
+            "voice_minutes": 100,
+            "voice_scope": "Countrywide calls",
+            "sms": 50,
+            "sms_scope": "Countrywide SMS",
+            "other": []
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "D7",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*201#YES"
+          }
+        },
+        {
+          "name": "DigiMax 3GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 8,
+            "currency": "AZN",
+            "period": "14 days"
+          },
+          "validity": "14 days",
+          "included": {
+            "internet": {
+              "amount": 3,
+              "unit": "GB"
+            },
+            "voice_minutes": 200,
+            "voice_scope": "Countrywide calls",
+            "sms": 100,
+            "sms_scope": "Countrywide SMS",
+            "other": []
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "D3",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*203#YES"
+          },
+          "notes": "Site lists the USSD as '**750*4*203#YES' (double asterisk, likely a typo); normalized to '*750*4*203#YES'."
+        },
+        {
+          "name": "DigiMax 5GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 12,
+            "currency": "AZN",
+            "period": "28 days"
+          },
+          "validity": "28 days",
+          "included": {
+            "internet": {
+              "amount": 5,
+              "unit": "GB"
+            },
+            "voice_minutes": 300,
+            "voice_scope": "Countrywide calls",
+            "sms": 150,
+            "sms_scope": "Countrywide SMS",
+            "other": [
+              {
+                "item": "Texting",
+                "amount": 1,
+                "unit": "GB"
+              }
+            ]
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "D5",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*205#YES"
+          }
+        },
+        {
+          "name": "DigiMax 10GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 18,
+            "currency": "AZN",
+            "period": "28 days"
+          },
+          "validity": "28 days",
+          "included": {
+            "internet": {
+              "amount": 10,
+              "unit": "GB"
+            },
+            "voice_minutes": 600,
+            "voice_scope": "Countrywide calls",
+            "sms": 300,
+            "sms_scope": "Countrywide SMS",
+            "other": [
+              {
+                "item": "Social Media",
+                "amount": 1,
+                "unit": "GB",
+                "apps": [
+                  "Instagram",
+                  "Facebook",
+                  "Facebook Messenger"
+                ]
+              },
+              {
+                "item": "WhatsApp",
+                "amount": 1,
+                "unit": "GB"
+              }
+            ]
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "D10",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*210#YES"
+          }
+        },
+        {
+          "name": "DigiMax 25GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/digimax.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 30,
+            "currency": "AZN",
+            "period": "28 days"
+          },
+          "validity": "28 days",
+          "included": {
+            "internet": {
+              "amount": 25,
+              "unit": "GB"
+            },
+            "voice_minutes": 1500,
+            "voice_scope": "Countrywide calls",
+            "sms": 500,
+            "sms_scope": "Countrywide SMS",
+            "other": [
+              {
+                "item": "Social Media",
+                "amount": 3,
+                "unit": "GB",
+                "apps": [
+                  "Instagram",
+                  "Tiktok",
+                  "Youtube",
+                  "Facebook",
+                  "Facebook Messenger"
+                ]
+              },
+              {
+                "item": "WhatsApp",
+                "amount": 3,
+                "unit": "GB"
+              }
+            ]
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "D25",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*225#YES"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who can subscribe to the \"DigiMax\" tariff packages?",
+          "answer": "Any Prepaid line subscribers can join the \"DigiMax\" tariff packages."
+        },
+        {
+          "question": "How to activate the tariff package?",
+          "answer": "To activate the “DigiMax” tariff, it is enough to send the relevant keyword to the short number 7575:\nD1 for \"DigiMax Daily”\nD7 for \"DigiMax Weekly”\nD3 for \" DigiMax 3GB”\nD5 for \" DigiMax 5GB”\nD10 for \" DigiMax 10GB\nD25 for “ DigiMax 25GB”\nThe cost of 1 SMS sent to 7575 is 0.01 AZN.\nIt is also possible to activate any \"DigiMax\" tariff package by dialing the appropriate USSD code:\n*750*4*200#YES for “DigiMax Daily”\n*750*4*201#YES for “DigiMax Weekly”\n**750*4*203#YES for \" DigiMax 3GB”\n*750*4*205#YES for \" DigiMax 5GB”\n*750*4*210#YES for \" DigiMax 10GB”\n*750*4*225#YES for \" DigiMax 25GB \"\nWhen connecting to the \"DigiMax\" tariff package, the subscription fee is deducted from the account, and bonuses are added to the balance."
+        },
+        {
+          "question": "How long is the tariff package valid for?",
+          "answer": "The validity period of the tariff is determined according to the selected package, and at the end of this period, if there are enough funds on the balance, the tariff pack will be automatically renewed. If there are not sufficient funds on the balance, the system will try to renew the tariff until there is enough money on the balance.\nRules for updating the “DigiMax Daily” tariff:\nThe tariff can be activated at any time and bonuses are provided immediately. The tariff is renewed within 48 hours after the first connection. In subsequent periods, the tariff is automatically renewed every night after 00:00. That is, regardless of the update time, the next renewal is carried out after midnight."
+        },
+        {
+          "question": "How to get information about bonuses?",
+          "answer": "For information about bonuses:\nBy sending an empty SMS to the short number 2112 (The cost of the SMS is 0.15 AZN);\nBy dialing *111*1*7#YES (The cost of the USSD message is 0.15 AZN);\nVia the “Azercell” mobile application (The application can be downloaded by dialing *110#YES)."
+        },
+        {
+          "question": "What volume of internet is provided for apps?",
+          "answer": "Within the “ DigiMax 10GB” tariff 1GB of traffic is provided for WhatsApp, as well as an additional 1GB of traffic for use in Instagram, Facebook and Facebook Messenger applications.\nWithin the “DigiMax 25GB” tariff, 3GB of traffic is provided for WhatsApp, as well as an additional 3GB of traffic for use in Instagram, Tiktok, Youtube, Facebook and Facebook Messenger applications.\nWhen the traffic provided for social networks is exhausted, the subscriber will be able to use other internet resources available on the balance."
+        },
+        {
+          "question": "When connecting to the \"DigiMax\" tariff, is the current internet balance reset?",
+          "answer": "When switching to the “DigiMax” tariff, the subscription fee is debited from the account and the tariff bonuses are added to the balance. Bonuses are valid for the duration of the tariff activation. After the expiration of the validity period, the existing bonuses are not transferred to the next month and are reset.\nThe package can be renewed no more than once a day (24 hours). To update the pack, you need to send the keyword to the short number 7575. The tariff can also be activated via USSD code. The bonuses of the existing package are canceled after renewal."
+        },
+        {
+          "question": "How is the service fee calculated after the bonuses on the “DigiMax” tariff are exhausted?",
+          "answer": "If the bonuses provided within the “DigiMax” tariff have been exhausted, but the package has not yet expired, the service fee will be as follows:\n1 countrywide calls minute is 0.19 AZN.\n1MB = 0.05 AZN\n1 SMS = 0.10 AZN (International: 0.25 AZN)"
+        },
+        {
+          "question": "How is the usage fee calculated if there are not enough funds in the balance to renew the package?",
+          "answer": "If there are insufficient funds on your balance for the next subscription (no other internet packages are available), the service fee is:\nCountrywide call: 0.19 AZN per minute\n1MB: 0.05 AZN\n1 SMS: 0.10 AZN (International SMS: 0.25 AZN"
+        },
+        {
+          "question": "When subscribers of the “DigiMax” tariff use other internet packages, which pack will be given priority in terms of traffic usage?",
+          "answer": "Within the “DigiMax 5GB”, “DigiMax 10GB”, “DigiMax 25GB” tariffs, internet packages will be given priority in all cases, except for the 56GB pack.\nWithin the “DigiMax Weekly” and “DigiMax 3GB” tariffs, priority is given first to weekly and hourly internet packages. In the case of 28-day packages, preference shifts to the “DigiMax (Weekly and 3GB) tariffs.\nWithin the “DigiMax Daily” tariff, preference will be given first to daily and hourly internet packages. In the case of 28-day and weekly internet packages, preference will be given to “DigiMax Daily” tariff."
+        },
+        {
+          "question": "How to renew the “DigiMax” tariff package if the internet runs out?",
+          "answer": "It is possible to reactivate the internet pack after the bonus expires. To order a new package, the subscriber can also be redirected to a special page using links.\n1MB = 0.05 AZN\nThe calculation interval for the internet is 512KB."
+        },
+        {
+          "question": "How many seconds is the billing interval for calls?",
+          "answer": "The billing interval for calls is 60 seconds."
+        },
+        {
+          "question": "Are the bonuses reset when replacing the \"DigiMax\" tariff package with another one?",
+          "answer": "When switching from one “DigiMax” tariff package to another, the bonuses of the current package are canceled."
+        },
+        {
+          "question": "For which calls cannot the minutes provided within the tariff be used?",
+          "answer": "Bonus minutes within the tariff cannot be used for roaming, international calls, special coded (dialed with *) and short numbers."
+        },
+        {
+          "question": "Is there a charge for sending a request to 7575?",
+          "answer": "For each request sent to 7575, 0.01 AZN is deducted from the balance."
+        },
+        {
+          "question": "How is the cost of in-tariff SMS calculated?",
+          "answer": "The price of 1 countrywide SMS is 0.10 AZN, while the cost of 1 international SMS is 0.25 AZN."
+        },
+        {
+          "question": "How is it possible to get detailed information about the \"DigiMax\" tariff?",
+          "answer": "To get detailed information about the \"DigiMax\" tariff, you need to send \"D\" to the short number 7575."
+        },
+        {
+          "question": "When are bonuses added to the balance when subscribing to the \"DigiMax\" tariff?",
+          "answer": "Bonuses are transferred to the balance immediately after successfully joining the “DigiMax\" tariff or renewing the tariff, and they can be updated at different times."
+        },
+        {
+          "question": "From which balance is the traffic used for social networks deducted within the “DigiMax” tariff package?",
+          "answer": "Priority is given first to the traffic intended for social networks, and then to the main package of the tariff. After the resources of the main package are exhausted and in the absence of an active internet package, the subscriber is redirected to a special page with links."
+        },
+        {
+          "question": "How to change the tariff package?",
+          "answer": "Detailed information is available at this link ."
+        },
+        {
+          "question": "What should be done to keep the line of the mobile number active?",
+          "answer": "To keep the number line open, it is necessary to constantly update the tariff package used. For example, by paying a subscription fee of the “DigiMax 10GB” tariff, the number will remain bilaterally active for the entire period of use of the tariff pack (28 days)."
+        },
+        {
+          "question": "What will happen when switching to another tariff package?",
+          "answer": "Switching to another tariff package will cancel the previous tariff and bonuses."
+        },
+        {
+          "question": "Which messages cannot be sent using the SMS provided within the tariff?",
+          "answer": "The bonus SMS included in the tariff cannot be used for messages sent to international numbers, as well as special-coded (starting with *) and short numbers."
+        }
+      ]
+    },
+    {
+      "family": "Premium+",
+      "line_type": "prepaid",
+      "description": "Choose excellence!",
+      "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/premium-plus-prepaid.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid.html",
+      "eligibility": "Any Prepaid line subscriber.",
+      "conditions": [
+        "Valid 28 days; auto-renews if balance sufficient, otherwise system retries.",
+        "Can be renewed no more than once a day (24 hours).",
+        "If a standard roaming package is active it has priority; it must be canceled to activate the Premium+ in-tariff roaming internet.",
+        "Bonus minutes cannot be used for roaming, international calls, special-coded (*) and short numbers.",
+        "Call billing interval: 60 seconds; internet calculation interval 512KB.",
+        "Bonus info: empty SMS to 2112 (0.15 AZN), *111*1*7#YES (0.15 AZN), or Azercell app.",
+        "Detailed info: send 'P' to 7575."
+      ],
+      "out_of_bundle_rates": {
+        "countrywide_call_per_min": 0.19,
+        "internet_per_mb": 0.05,
+        "sms_domestic": 0.1,
+        "sms_international": 0.25,
+        "currency": "AZN"
+      },
+      "plans": [
+        {
+          "name": "Premium+ 60GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/premium-plus-prepaid.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 60,
+            "currency": "AZN",
+            "period": "28 days"
+          },
+          "validity": "28 days",
+          "included": {
+            "internet": {
+              "amount": 60,
+              "unit": "GB"
+            },
+            "voice_minutes": 3000,
+            "voice_scope": "Countrywide calls",
+            "sms": 1500,
+            "other": [
+              {
+                "item": "Social Media",
+                "amount": 5,
+                "unit": "GB",
+                "apps": [
+                  "Instagram",
+                  "TikTok",
+                  "YouTube",
+                  "Facebook",
+                  "Facebook Messenger"
+                ]
+              },
+              {
+                "item": "WhatsApp",
+                "amount": 5,
+                "unit": "GB"
+              },
+              {
+                "item": "Roaming internet",
+                "amount": 1,
+                "unit": "GB"
+              }
+            ]
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "PP60",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*160#YES",
+            "app": "Azercell app"
+          }
+        },
+        {
+          "name": "Premium+ 100GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/premium-plus-prepaid.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 90,
+            "currency": "AZN",
+            "period": "28 days"
+          },
+          "validity": "28 days",
+          "included": {
+            "internet": {
+              "amount": 100,
+              "unit": "GB"
+            },
+            "voice_minutes": 5000,
+            "voice_scope": "Countrywide calls",
+            "sms": 2500,
+            "other": [
+              {
+                "item": "Social Media",
+                "amount": 10,
+                "unit": "GB",
+                "apps": [
+                  "Instagram",
+                  "TikTok",
+                  "YouTube",
+                  "Facebook",
+                  "Facebook Messenger"
+                ]
+              },
+              {
+                "item": "WhatsApp",
+                "amount": 10,
+                "unit": "GB"
+              },
+              {
+                "item": "Roaming internet",
+                "amount": 3,
+                "unit": "GB"
+              }
+            ]
+          },
+          "auto_renewal": true,
+          "activation": {
+            "sms": {
+              "text": "PP100",
+              "number": "7575",
+              "cost_azn": 0.01
+            },
+            "ussd": "*750*4*1100#YES",
+            "app": "Azercell app"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who can subscribe to the \"Premium+\" tariff packages?",
+          "answer": "Any Prepaid line subscribers can join the \"Premium+\" tariff packages."
+        },
+        {
+          "question": "How to activate the tariff package?",
+          "answer": "To activate the tariff pack, it is enough to send the relevant keyword to the short number 7575:\nPP60 for \"Premium+ 60GB”\nPP100 for \"Premium+ 100GB”\nThe cost of 1 SMS sent to 7575 is 0.01 AZN.\nAny \"Premium+\" tariff package can also be activated by dialing the appropriate USSD code or in the \"Azercell\" application:\n*750*4*160#YES for \"Premium+ 60GB\"\n*750*4*1100#YES for \"Premium+ 100GB\"\nWhen connecting to the “Premium+\" tariff package, the subscription fee is deducted from the account, and bonuses are added to the balance."
+        },
+        {
+          "question": "How long is the tariff package valid for?",
+          "answer": "The tariff is valid for 28 days and at the end of this period, the tariff package will be automatically renewed if there are sufficient funds on the balance. If there are not enough funds on the balance, the system will try to update the tariff until there is enough money on the balance."
+        },
+        {
+          "question": "How to get information about bonuses?",
+          "answer": "Send an empty SMS to the short number 2112 (the cost of the SMS is 0.15 AZN);\nBy dialing *111*1*7#YES (the cost of the USSD message is 0.15 AZN);\nVia the “Azercell” mobile application (The application can be downloaded by dialing *110#YES)."
+        },
+        {
+          "question": "What volume of internet is provided for apps in the “Premium+” tariff?",
+          "answer": "Within the “Premium+ 60GB” tariff, 5GB is provided for WhatsApp, as well as an additional 5GB of traffic for use in Instagram, TikTok, YouTube, Facebook and Facebook Messenger applications.\nWithin the “Premium+ 100GB” tariff, 10GB is provided for WhatsApp, as well as an additional 10GB of traffic for use in Instagram, TikTok, YouTube, Facebook and Facebook Messenger applications.\nWhen the traffic provided for social networks is exhausted, the subscriber will be able to use other internet resources available on the balance."
+        },
+        {
+          "question": "When connecting to the \"Premium+\" tariff, is the current internet balance reset?",
+          "answer": "When switching to the “Premium+” tariff, the subscription fee is debited from the account and the tariff bonuses are added to the balance. Bonuses are valid for the entire duration of the tariff activation. After the expiration of the validity period, the existing bonuses are not transferred to the next month and are reset.\nThe package can be renewed for a period of 28 days and no more than once a day (24 hours). To update the pack, you need to send the keyword to the short number 7575. The tariff can also be activated via USSD code or the “Azercell” application. The bonuses of the existing package are canceled after renewal."
+        },
+        {
+          "question": "How is the usage fee calculated after the bonuses on the \"Premium+\" tariff are exhausted?",
+          "answer": "If the bonuses provided within the “Premium+” tariff have been exhausted, but the package has not yet expired, the service fee will be as follows:\n1 countrywide call minute is 0.19 AZN.\n1MB = 0.05 AZN\nSMS = 0.10 AZN (International: 0.25 AZN)"
+        },
+        {
+          "question": "How is the usage fee calculated if there are not enough funds in the balance to renew the package?",
+          "answer": "If there are not enough funds on the balance for the next monthly subscription (as well as if there are no other internet packages), the service fee is:\n1 countrywide call minute is 0.19 AZN.\n1MB = 0.05 AZN\n1 SMS = 0.10 AZN (International: 0.25 AZN)"
+        },
+        {
+          "question": "When subscribers of the “Premium+” tariff use other internet packages, which pack will be given priority in terms of traffic usage?",
+          "answer": "Priority will be given to internet packages in all cases except 56GB."
+        },
+        {
+          "question": "How to renew the \"Premium+\" tariff package if the internet runs out?",
+          "answer": "It is possible to reactivate the internet pack after the bonus expires. To order a new package, the subscriber can also be redirected to a special page using links.\n1MB = 0.05 AZN\nThe calculation interval for the internet is 512KB."
+        },
+        {
+          "question": "How many seconds is the billing interval for calls?",
+          "answer": "The billing interval for calls is 60 seconds."
+        },
+        {
+          "question": "Are bonuses reset when replacing the “Premium+” tariff package with another one?",
+          "answer": "When switching from the “Premium+” tariff package to another, the bonuses of the existing package are canceled."
+        },
+        {
+          "question": "For which calls cannot the minutes provided within the tariff be used?",
+          "answer": "In-tariff bonus minutes cannot be used for roaming, international calls, special coded (dialed with *) and short numbers."
+        },
+        {
+          "question": "Is there a charge for sending a request to 7575?",
+          "answer": "For each request sent to 7575, 0.01 AZN is deducted from the balance."
+        },
+        {
+          "question": "How is the cost of in-tariff SMS calculated?",
+          "answer": "The price of 1 countrywide SMS is 0.10 AZN, while the cost of 1 international SMS is 0.25 AZN."
+        },
+        {
+          "question": "How is it possible to get detailed information about the \"Premium+\" tariff?",
+          "answer": "To get detailed information about the \"Premium+\" tariff, you need to send \"P\" to the short number 7575."
+        },
+        {
+          "question": "Is it possible to use the “Premium+” tariff package simultaneously with any active roaming package?",
+          "answer": "If any roaming package is active on the number, the subscriber must cancel the standard package to activate the internet package provided within the “Premium+” tariff. Also, if the standard roaming package is active, priority is given to that package, and then it is possible to benefit from the bonuses of the “Premium+” tariff."
+        },
+        {
+          "question": "When are bonuses added to the balance when subscribing to the \"Premium+\" tariff?",
+          "answer": "Bonuses are transferred to the balance immediately after successfully joining the \"Premium+\" tariff or renewing the tariff, and they can be updated at different times."
+        },
+        {
+          "question": "From which balance is traffic used for social networks deducted within the “Premium” tariff package?",
+          "answer": "Priority is given first to traffic intended for social networks, and then to the main package of the tariff. After the resources of the main package are exhausted, the subscriber is redirected to a special page with links."
+        },
+        {
+          "question": "How to change the tariff package?",
+          "answer": "Detailed information is available at this link ."
+        },
+        {
+          "question": "What should be done to keep the line of the mobile number active?",
+          "answer": "To keep the number line open, it is necessary to constantly update the tariff package used. For example, by paying a subscription fee of 60 AZN for the “Premium+ 60GB” tariff, the number will remain bilaterally active for the entire period of use of the tariff pack (28 days)."
+        }
+      ],
+      "notes": "Listing card shows the SMS keyword as '\"PP60' (missing closing quote) – keyword is PP60."
+    },
+    {
+      "family": "Data+",
+      "line_type": "prepaid",
+      "description": "Internet for all your needs",
+      "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid.html",
+      "general_information": "Mainly designed for mobile internet users. Video calling and SMS are available; regular voice calls are not included.",
+      "out_of_bundle_rates": {
+        "internet_per_mb": 0.05,
+        "sms": 0.05,
+        "currency": "AZN"
+      },
+      "conditions": [
+        "Only for new Data numbers (Prepaid line, SimSim).",
+        "Internet volume can be used as Hotspot.",
+        "Roaming use charged at internet roaming tariffs.",
+        "Can be used simultaneously with other internet packages.",
+        "Unused traffic is reset on renewal.",
+        "Subscription cannot be canceled; subscriber must switch to another Data tariff.",
+        "Balance: SMS to 2112, USSD, Azercell app or landing page."
+      ],
+      "plans": [
+        {
+          "name": "Data+ 3GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 9,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 3,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*93#YES"
+          }
+        },
+        {
+          "name": "Data+ 6GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 12,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 6,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*96#YES"
+          }
+        },
+        {
+          "name": "Data+ 12GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 19,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 12,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*912#YES"
+          }
+        },
+        {
+          "name": "Data+ 30GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 29,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 30,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*930#YES"
+          }
+        },
+        {
+          "name": "Data+ 60GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 39,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 60,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*960#YES"
+          }
+        },
+        {
+          "name": "Data+ 100GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 49,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 100,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*9100#YES"
+          },
+          "conditions": [
+            "Available only with a device."
+          ]
+        },
+        {
+          "name": "Data+ 200GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/data-tarifi.html",
+          "line_type": "prepaid",
+          "price": {
+            "amount": 59,
+            "currency": "AZN"
+          },
+          "validity": null,
+          "included": {
+            "internet": {
+              "amount": 200,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "activation": {
+            "ussd": "*750*4*9200#YES"
+          },
+          "conditions": [
+            "Available only with a device."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How to activate the tariff package?",
+          "answer": "It is also possible to activate any \"Data+\" tariff package by dialing the appropriate USSD code:\n*750*4*93#YES for \"Data+ 3GB\"\n*750*4*96#YES for \"Data+ 6GB\"\n*750*4*912#YES for \" Data+ 12GB \"\n*750*4*930#YES for \" Data+ 30GB \"\n*750*4*960#YES for \" Data+ 60GB \"\n*750*4*9100#YES for \" Data+ 100GB \"\n*750*4*9200#YES for \" Data+ 200GB \""
+        }
+      ],
+      "notes": "Validity period of Data+ packages is not stated on the page."
+    },
+    {
+      "family": "Data (postpaid)",
+      "line_type": "postpaid",
+      "description": "Data-only packs for freedom to surf the internet",
+      "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/data-postpaid.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid.html",
+      "general_information": "Data-only tariff plan; does not support voice calls.",
+      "out_of_bundle_rates": {
+        "video_call_onnet_per_min": 0.07,
+        "video_call_offnet_per_min": 0.12,
+        "sms_countrywide": 0.1,
+        "sms_international": 0.25,
+        "internet_per_mb_postpaid": 0.05,
+        "internet_per_mb_prepaid_simsim": 0.04,
+        "currency": "AZN"
+      },
+      "conditions": [
+        "Period of usage is 30 days.",
+        "If internet usage is less than 1 AZN in a month, monthly fee is 1 AZN (from 01.04.2021).",
+        "One-time 3 AZN discount on first monthly data pack activation.",
+        "From 01.08.2023 postpaid personal subscribers without an internet package have internet suspended; 1 MB - 0.05 AZN via internet.azercell.com.",
+        "All prices VAT inclusive"
+      ],
+      "plans": [
+        {
+          "name": "Data 1.5GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/data-postpaid.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 6,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 1.5,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          }
+        },
+        {
+          "name": "Data 6GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/data-postpaid.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 12,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 6,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          }
+        },
+        {
+          "name": "Data 12GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/data-postpaid.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 19,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 12,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          }
+        },
+        {
+          "name": "Data 30GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/data-postpaid.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 29,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 30,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          }
+        },
+        {
+          "name": "Data 55GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/postpaid/data-postpaid.html",
+          "line_type": "postpaid",
+          "price": {
+            "amount": 39,
+            "currency": "AZN",
+            "period": "30 days"
+          },
+          "validity": "30 days",
+          "included": {
+            "internet": {
+              "amount": 55,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does it cost to use the internet without a Mobile Internet package on “Data” tariff?",
+          "answer": "The cost of internet usage without a Mobile Internet package on “Data” tariff for prepaid (SimSim) subscribers is 0.04 AZN per 1 MB, for postpaid subscribers is 0.05 AZN per 1 MB."
+        },
+        {
+          "question": "Will I receive any bonuses or discounts when I activate a monthly data pack?",
+          "answer": "Every subscriber who activates a monthly data pack will receive a one-time discount of 3 AZN. The cost of the data pack will be charged in full for subsequent months."
+        },
+        {
+          "question": "Where can I learn more about monthly internet packs?",
+          "answer": "For more information about monthly internet packs, click here ."
+        },
+        {
+          "question": "How to change the tariff pack?",
+          "answer": "You can get more information from this link ."
+        },
+        {
+          "question": "To the attention of subscribers of numbers with \"Data\" tariff",
+          "answer": "Starting from April 1, 2021, the system of monthly subscription fee of 1 AZN (including VAT) for each invoice period will be applied for the numbers of the invoice line system connected to the “Data” tariff. When using telecommunications services during the invoice period in the amount of 1 AZN (including VAT) or more, the monthly subscription fee is not charged. In order to avoid additional costs, subscribers can disable this service by contacting Customer Support or Exclusive offices to block the number line with the \"Data\" tariff on a two-way basis.\nNote: subscribers can get detailed information about the new rules, the \"Data\" service and Internet packages, including the services, tariffs and ongoing campaigns provided by Azercell Telecom LLC on our official website ( www.azercell.com ), as well as by contacting Customer Support (Customer Service or Exclusive offices, a Call Center that is open 24 hours a day, 7 days a week)."
+        },
+        {
+          "question": "About Internet usage",
+          "answer": "From 01.08.2023, all postpaid subscribers in the personal customer segment are suspended using the internet service in the absence of any internet package in the number.\nTo continue the use of the internet, you need to obtain an internet package or visit http://internet.azercell.com to choose 1 MB - 0.05 AZN."
+        }
+      ]
+    },
+    {
+      "family": "Veteran",
+      "line_type": "prepaid",
+      "description": "Exclusive tariff for war veterans",
+      "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/veteran-tarifi.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid.html",
+      "plans": [
+        {
+          "name": "Veteran",
+          "url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid/veteran-tarifi.html",
+          "line_type": "prepaid",
+          "price": null,
+          "rates": {
+            "onnet_call_per_min": 0.03,
+            "offnet_call_per_min": 0.04,
+            "sms": 0.03,
+            "internet_per_mb": 0.03,
+            "currency": "AZN"
+          },
+          "included": {
+            "internet": null,
+            "voice_minutes": null,
+            "sms": null,
+            "other": [
+              {
+                "item": "On-net minutes for first-time joiners (first month only, from 05.11.2022)",
+                "amount": 50,
+                "unit": "min"
+              }
+            ]
+          },
+          "conditions": [
+            "Prepaid only.",
+            "Join at Customer Support / Azercell Exclusive offices with ID and official 'War veteran' card (or military ID noting participation in hostilities).",
+            "Tariff launched 08.11.2021.",
+            "Free numbers provided within the campaign until 31.12.2025.",
+            "Existing number can be used but must also subscribe to 'Azercellim' tariff.",
+            "Only one number per veteran; only one of the offers per number.",
+            "Benefits lost on name-to-name registration or switching to postpaid.",
+            "All prices VAT inclusive"
+          ],
+          "balance_validity": {
+            "scratch_cards_azn_to_days": {
+              "1": 5,
+              "2": 10,
+              "3": 20,
+              "5": 30,
+              "10": 60,
+              "25": 90,
+              "50": 120,
+              "100": 120
+            },
+            "online_payment": [
+              {
+                "range": "1-1.99 AZN",
+                "days": 5
+              },
+              {
+                "range": "2-2.99 AZN",
+                "days": 10
+              },
+              {
+                "range": "3-4.99 AZN",
+                "days": 20
+              },
+              {
+                "range": "5-9.99 AZN",
+                "days": 30
+              },
+              {
+                "range": "10-19.99 AZN",
+                "days": 60
+              },
+              {
+                "range": "20-24.99 AZN",
+                "days": 90
+              },
+              {
+                "range": "25-49.99 AZN",
+                "days": 90
+              },
+              {
+                "range": "50-99.99 AZN",
+                "days": 120
+              }
+            ]
+          },
+          "activation": {
+            "in_person": "Azercell Customer Support or Exclusive offices"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who can join the campaign?",
+          "answer": "The tariff is intended only for prepaid subscribers."
+        },
+        {
+          "question": "How to join the campaign?",
+          "answer": "You can subscribe to the tariff only by presenting an official \"War veteran\" card issued by the relevant state bodies of the Republic of Azerbaijan, namely:\nThe Ministry of Defense;\nThe Ministry of Internal Affairs;\nThe Ministry of Justice;\nThe Ministry of Emergency Situations;\nThe State Security Service;\nThe Foreign Intelligence Service;\nThe State Border Service;\nState Service for Mobilization and Conscription;\nThe Special State Security Service of the Republic of Azerbaijan;\nSecurity Service of President of Azerbaijan Republic;\nSpecial Communication and Information Security State Agency;\nState Agency for Strategic Facilities Protection of the Republic of Azerbaijan, or a military identity card with a note on the passage of military service and participation in hostilities during the war. The procedure and sample for issuing the \"War veteran\" card were approved by the Cabinet of Ministers of the Republic of Azerbaijan decree.\nYou can subscribe to the tariff by visiting any Azercell Exclusive offices with the above documents and identity card."
+        },
+        {
+          "question": "How to unsubscribe from \"Veteran\" tariff?",
+          "answer": "Cancellation of the tariff and tariff change are possible based on the standard conditions for changing the tariff.\nTo switch to the “Azercellim” tariff, you need to apply to Azercell Customer Support or visit one of Azercell Exclusive offices.\nNote: if the subscriber performs the process of \"Name-to-name registration\" or switches to a postpaid line, he/she will not be able to take advantage of the offered benefits."
+        },
+        {
+          "question": "If several Azercell numbers are available, do I need to activate this tariff separately for each of these numbers?",
+          "answer": "The tariff can be activated only by choosing one of these numbers."
+        },
+        {
+          "question": "Is it possible to activate the \"Veteran\" tariff and the campaign of the same on the same number?",
+          "answer": "Only one of the presented offers can be used on one number at the same time."
+        },
+        {
+          "question": "Can a subscriber subscribe to \"Veteran\" tariff with his/her existing number?",
+          "answer": "The subscriber can subscribe to the tariff with his/her existing number. However, in order to join the \"Veteran\" tariff, the subscriber must also subscribe to \"Azercellim\" tariff."
+        },
+        {
+          "question": "How to change the tariff pack?",
+          "answer": "You can get more information from this link ."
+        },
+        {
+          "question": "How does the balance validity period change depending on the top-up in the “Veteran” tariff?",
+          "answer": "The validity periods on the amounts for subscribers of the “Veteran” tariff are listed below:\nCards by nominal and their validity periods (only for Prepaid line subscribers)\n1 5 day\n2 10 days\n3 20 days\n5 30 days\n10 60 days\n25 90 days\n50 120 days\n100 120 days\nOnline payment amounts and validity periods (only for Prepaid subscribers)\nPayment amount\nValidity period (calendar days)\nFrom 1 to 1.99 AZN\n5\nFrom 2 AZN to 2.99 AZN\n10\nFrom 3 AZN to 4.99 AZN\n20\nFrom 5 AZN to 9.99 AZN\n30\nFrom 10 AZN to 19.99 AZN\n60\nFrom 20 AZN to 24.99 AZN\n90\nFrom 25 AZN to 49.99 AZN\n90\nFrom 50 AZN to 99.99 AZN\n120"
+        }
+      ]
+    },
+    {
+      "family": "Əsgərcell",
+      "line_type": null,
+      "description": "We are at your service with “Əsgərcell”!",
+      "url": "https://azercell.com/en/personal/esgercell.html",
+      "listing_url": "https://azercell.com/en/personal/plans-and-services/mobile-tariffs/prepaid.html",
+      "plans": [
+        {
+          "name": "Əsgərcell",
+          "url": "https://azercell.com/en/personal/esgercell.html",
+          "price": {
+            "amount": 88,
+            "currency": "AZN",
+            "note": "one-time offer price"
+          },
+          "validity": "18 months",
+          "included": {
+            "internet": null,
+            "voice_minutes": null,
+            "sms": null,
+            "other": [
+              {
+                "item": "Non-smart mobile phone (A-CELL Z1)"
+              },
+              {
+                "item": "New Azercell number"
+              },
+              {
+                "item": "Initial balance",
+                "amount": 1,
+                "unit": "AZN"
+              }
+            ]
+          },
+          "rates": {
+            "onnet_call_per_min": 0.03,
+            "offnet_call_per_min": 0.04,
+            "sms": "Closed",
+            "internet": "Closed",
+            "currency": "AZN"
+          },
+          "conditions": [
+            "For individuals called up for military service (partnership with Ministry of Defence).",
+            "Calls only to 5 pre-approved numbers plus emergency number.",
+            "Business hours: Mon–Fri 18:00–21:00, Sat 15:00–22:00, Sun 10:00–21:00; no service outside these hours.",
+            "Line active 18 months regardless of top-ups.",
+            "Available from 1 July 2026; each soldier can use the offer once.",
+            "Subscribe at temporary sales point in the military unit with a copy of ID.",
+            "Top up via bank cards or terminals (eManat, MilliÖn, etc.)."
+          ],
+          "device": {
+            "model": "A-CELL Z1",
+            "network": "4G",
+            "dimensions": "121.5 x 50 mm",
+            "weight": "93 g",
+            "sim_slots": 1,
+            "sim_size": "Nano SIM",
+            "display": "1.8\" QQVGA",
+            "os": "S30+",
+            "processor": "UNISOC T107",
+            "ram": "48MB",
+            "storage": "128MB",
+            "memory_card": "No",
+            "camera": "No",
+            "headphone_jack": "Yes (3.5 mm)",
+            "bluetooth": "No",
+            "gps": "No",
+            "usb": "Micro USB",
+            "battery": "1,450 mAh",
+            "in_box": "Battery, Charger, User manual"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "When will the offer become available?",
+          "answer": "The Əsgərcell offer will be available for subscription starting from 1 July 2026."
+        },
+        {
+          "question": "How many times can the offer be used?",
+          "answer": "Each soldier can benefit from the offer only once."
+        },
+        {
+          "question": "Is it possible to use the number on another device?",
+          "answer": "The number can be used on another device."
+        },
+        {
+          "question": "Is it possible to use another number on the device?",
+          "answer": "It is not possible to use another number on the device."
+        },
+        {
+          "question": "Can the device be used after 1.5 years?",
+          "answer": "It is not possible to use the device after 1.5 years, because the other number does not work on the device."
+        },
+        {
+          "question": "Is it possible to use the number after its expiration date?",
+          "answer": "It is not possible to use the number after its expiration date."
+        },
+        {
+          "question": "How to top up the balance?",
+          "answer": "It is possible to top up the balance via bank cards or special terminals (eManat, MilliÖn, etc.)."
+        }
+      ]
+    }
+  ]
+}

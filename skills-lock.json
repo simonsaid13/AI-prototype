@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-sdk": {
+      "source": "vercel/ai",
+      "sourceType": "github",
+      "skillPath": "skills/use-ai-sdk/SKILL.md",
+      "computedHash": "d6910e7d8bb527d2823ba58b6225b304ae649c135fc7e43ec2d2152251c218db"
+    },
+    "animate-expo": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animate-expo/SKILL.md",
+      "computedHash": "5de09593d564091f9db60aabede7bed760251e118548272050a247c653c417d2"
+    },
+    "mobile-native": {
+      "source": "george11642/george-plugins",
+      "sourceType": "github",
+      "skillPath": "plugins/george-setup/skills/mobile-native/SKILL.md",
+      "computedHash": "f3a044c2fad42eb971ce0e89e24d1d5c931fafe3fa370106ad3afbf14c6dc870"
+    }
+  }
+}

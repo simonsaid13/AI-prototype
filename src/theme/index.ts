@@ -1,19 +1,18 @@
-import { useColorScheme } from 'react-native';
-
-import { darkColors, lightColors } from './colors';
+import { lightColors } from './colors';
 import { radius, spacing } from './spacing';
 import { typography } from './typography';
 
+const theme = {
+  colors: lightColors,
+  typography,
+  spacing,
+  radius,
+};
+
 export function useTheme() {
-  const scheme = useColorScheme();
-  return {
-    colors: scheme === 'dark' ? darkColors : lightColors,
-    typography,
-    spacing,
-    radius,
-  };
+  return theme;
 }
 
-export type Theme = ReturnType<typeof useTheme>;
+export type Theme = typeof theme;
 export type { ColorTokens } from './colors';
 export type { TypographyVariant } from './typography';

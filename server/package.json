@@ -11,6 +11,8 @@
     "start": "node --env-file-if-exists=.env index.ts"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^4.0.91",
+    "ai": "^7.0.136",
     "express": "^5.2.1"
   },
   "devDependencies": {

@@ -1,0 +1,143 @@
+{
+  "as_of": "2026-10-09",
+  "default_customer_id": "simon-budanov",
+  "customers": [
+    {
+      "id": "simon-budanov",
+      "scenario": "happy_path",
+      "profile": {
+        "first_name": "Simon",
+        "last_name": "Budanov",
+        "date_of_birth": "1996-03-12",
+        "years_with_company": 7,
+        "customer_since": "2019-10-09",
+        "location": "Baku, Azerbaijan"
+      },
+      "current_tariff": {
+        "family": "DigiMax",
+        "name": "DigiMax 10GB",
+        "since": "2025-11-01"
+      },
+      "tariff_history": [
+        {
+          "family": "DigiMax",
+          "name": "DigiMax 3GB",
+          "from": "2019-10-09",
+          "to": "2022-06-01"
+        },
+        {
+          "family": "DigiMax",
+          "name": "DigiMax 5GB",
+          "from": "2022-06-01",
+          "to": "2025-11-01"
+        },
+        {
+          "family": "DigiMax",
+          "name": "DigiMax 10GB",
+          "from": "2025-11-01",
+          "to": null
+        }
+      ],
+      "purchases_past_year": [
+        {
+          "date": "2025-11-18",
+          "kind": "roaming",
+          "family": "Roaming internet packs",
+          "name": "2GB",
+          "trip": "Turkey"
+        },
+        {
+          "date": "2026-07-09",
+          "kind": "internet_pack",
+          "family": "High-volume",
+          "name": "6GB"
+        },
+        {
+          "date": "2026-10-03",
+          "kind": "internet_pack",
+          "family": "High-volume",
+          "name": "3GB"
+        }
+      ]
+    },
+    {
+      "id": "nigar-hasanova",
+      "scenario": "new_customer",
+      "profile": {
+        "first_name": "Nigar",
+        "last_name": "Hasanova",
+        "date_of_birth": "2004-01-20",
+        "years_with_company": 0,
+        "customer_since": "2026-08-01",
+        "location": "Ganja, Azerbaijan"
+      },
+      "current_tariff": {
+        "family": "Data+",
+        "name": "Data+ 3GB",
+        "since": "2026-08-01"
+      },
+      "tariff_history": [
+        {
+          "family": "Data+",
+          "name": "Data+ 3GB",
+          "from": "2026-08-01",
+          "to": null
+        }
+      ],
+      "purchases_past_year": [
+        {
+          "date": "2026-09-14",
+          "kind": "internet_pack",
+          "family": "Daily",
+          "name": "350MB"
+        }
+      ]
+    },
+    {
+      "id": "elvin-rasulov",
+      "scenario": "postpaid_traveler",
+      "profile": {
+        "first_name": "Elvin",
+        "last_name": "Rasulov",
+        "date_of_birth": "1985-07-04",
+        "years_with_company": 11,
+        "customer_since": "2015-03-01",
+        "location": "Sumqayit, Azerbaijan"
+      },
+      "current_tariff": {
+        "family": "Alfa Plan",
+        "name": "Alfa Plan 25GB",
+        "since": "2024-02-01"
+      },
+      "tariff_history": [
+        {
+          "family": "Data (postpaid)",
+          "name": "Data 6GB",
+          "from": "2015-03-01",
+          "to": "2019-09-01"
+        },
+        {
+          "family": "Alfa Plan",
+          "name": "Alfa Plan 12GB",
+          "from": "2019-09-01",
+          "to": "2024-02-01"
+        },
+        {
+          "family": "Alfa Plan",
+          "name": "Alfa Plan 25GB",
+          "from": "2024-02-01",
+          "to": null
+        }
+      ],
+      "purchases_past_year": [
+        {
+          "date": "2026-08-12",
+          "kind": "roaming",
+          "family": "Roaming internet packs",
+          "name": "5GB",
+          "trip": "Georgia"
+        }
+      ]
+    }
+  ]
+}

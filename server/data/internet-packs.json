@@ -1,0 +1,1170 @@
+{
+  "source": "https://azercell.com",
+  "language": "en",
+  "segment": "B2C (Personal)",
+  "scraped_at": "2026-10-09",
+  "currency_note": "All prices in AZN, VAT inclusive as stated on site.",
+  "kind": "internet_pack",
+  "general_notes": [
+    "Packs apply to both Prepaid and Postpaid subscribers (price 'Package cost for Prepaid and Postpaid').",
+    "Balance: empty SMS to 2525 or *100#YES (free prepaid, 0.01 AZN postpaid).",
+    "Without a pack: 1 MB – 0.05 AZN.",
+    "Usage hours are approximate per activity type."
+  ],
+  "families": [
+    {
+      "family": "High-volume",
+      "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/monthly.html",
+      "alt_url": "https://azercell.com/en/personal/plans-and-services/internet-pack.html",
+      "plans": [
+        {
+          "name": "3GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/monthly/3gb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 9,
+            "currency": "AZN"
+          },
+          "validity": {
+            "prepaid": "28 days",
+            "postpaid": "30 days"
+          },
+          "included": {
+            "internet": {
+              "amount": 3,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video calls",
+              "approx": "~6 hours"
+            },
+            {
+              "activity": "Social networking",
+              "approx": "~32 hours"
+            },
+            {
+              "activity": "Music streaming",
+              "approx": "~300 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "3",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*3#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How do I subscribe to the 3GB High-volume internet pack?",
+              "answer": "Azercell gives you 3 easy ways to subscribe:\nSubscribe by SMS\nSMS 3 to 2525 .\nSMSs sent from a Prepaid subscriber to 2525 are free.\nEach SMS from a postpaid subscriber to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial * 100*3#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "How to deactivate the high-volume internet package?",
+              "answer": "To deactivate the high-volume internet package, prepaid and postpaid subscribers should send stop ay or 0 to 2525 or dial *100*0#YES . In this case, the pack is canceled immediately. When the high-volume package subscription is canceled, the remaining internet is completely reset and internet usage is calculated according to the current tariff plan."
+            },
+            {
+              "question": "Is it possible to cancel the automatic renewal of the high-volume internet package?",
+              "answer": "It is enough to dial *100*00#YES to cancel automatic renewal of the high-volume internet pack."
+            },
+            {
+              "question": "What happens when the internet traffic provided before the expiration of the pack is fully used?",
+              "answer": "Internet access will be deactivated at the end of the validity period or billing cycle of the tariff plan. The subscriber will be redirected to the internet.azercell.com page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. In such cases, the subscriber is redirected to the download page to continue using the mobile Internet.\nAfter redirection the subscriber can choose between three option:\nRenew the existing pack\nOrder a new larger pack\nContinue to use the Internet without pack (1 MB – 0.05 AZN)"
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to purchase multiple packs on the same day.\nIf you wish to purchase a pack of a volume less than your current pack, you must use up at least 95% of the data from the current pack first.\nAs of 03.04.2019, there are no restrictions on purchasing a pack of a volume larger than your current pack."
+            },
+            {
+              "question": "Is the high-volume subscription to the current internet pack canceled, when you activate “Gündəlik”, “Limitsiz saat” or “Limitsiz həftəsonu” internet packs?",
+              "answer": "The subscription to the high-volume internet pack is not canceled, when you connect to daily, hourly packs, as well as to packages for weekends, if a high-volume subscription to the internet pack is activated."
+            },
+            {
+              "question": "Should the current process be repeated every month to resubscribe to the same internet package?",
+              "answer": "No, if there are enough funds in the subscriber's account, the system automatically renew the same internet pack at the end of the period of use.\nThe system will try to update the pack automatically within 90 days, if there are not enough funds in the balance of the prepaid subscriber to renew the internet pack,\nThe system checks the line within 90 days after blocking incoming and outgoing calls of postpaid subscribers. If the line has not been activated by the end of this period, the subscription is automatically cancelled."
+            },
+            {
+              "question": "How do I get information about my internet pack balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers."
+            },
+            {
+              "question": "How soon, after subscribing to the new Internet package, will it be activated?",
+              "answer": "The internet pack is activated for both prepaid and post-paid line subscribers immediately after the request is received."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will receive an SMS with confirmation of internet pack activation before you can use it."
+            },
+            {
+              "question": "Is the unused balance of the internet balance transferred to the next day/month?",
+              "answer": "All internet packs expire at the end of the day/month (according to the internet pack) and cannot be transferred to the next day/month."
+            },
+            {
+              "question": "Can I use mobile internet when roaming is active?",
+              "answer": "Yes, it is possible to use the mobile Internet while roaming is active. The internet usage fee will be calculated in accordance with the roaming rates."
+            },
+            {
+              "question": "When is the call itemization (invoice) issued to postpaid subscribers?",
+              "answer": "Postpaid subscribers who subscribe to the internet pack in the current billing cycle will get the subscription fees in the following bill cycle. If the billing cycle is longer than 30 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speed do I get by ordering a 3GB high-volume internet pack?",
+              "answer": "When using high-volume data packs, the internet speed isn’t limited and the subscriber can use the maximum network speed."
+            },
+            {
+              "question": "Is there a 20% discount offer for postpaid subscribers who have the status of an individual?",
+              "answer": "This campaign ended on 27.02.2019."
+            },
+            {
+              "question": "Can I use the high-volume pack benefits together with the benefits from other campaigns?",
+              "answer": "As of 08.02.2016, internet bonuses provided within Samsung, Galaxy Tab and Huawei campaigns are used before the bonuses from other packages. This applies to all prepaid and postpaid subscribers using these packs mentioned below:\n50MB/500MB/1GB/5GB/10GB internet packs\nDaily 500MB internet packs\n10GB=10AZN promotion\n\"GəncOL\" tariff\nIf the data is used up before the end of internet pack respective validity period, internet access will be suspended. The subscriber will then be redirected to www.internet.azercell.com to order a new pack.\nHigh-volume internet packs conditions will be applied once the Data Card and Galaxy Tab campaigns end.\nIf 50GB High-volume internet pack is active on the balance of the subscriber, it will not be possible to use “Sərfəli 10GB” and “Sərfəli 30GB” high-volume internet packs."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order a high-volume Internet Pack?",
+              "answer": "If numbers connected to a hotspot order a high-volume Internet Package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The high-volume internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "For an automatic activation:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the tariff for sending SMS to 9595 is 0.01 AZN).\nYou will first receive an informational message, and then, within the next 20 minutes you will receive Internet settings. Received settings should be saved in the phone memory.\nSwitch off and restart your phone to install the new settings and restore internet access."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "deactivation": {
+            "sms": [
+              "stop ay",
+              "0"
+            ],
+            "sms_number": "2525",
+            "ussd": "*100*0#YES",
+            "cancel_auto_renewal_ussd": "*100*00#YES"
+          }
+        },
+        {
+          "name": "6GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/monthly/6-gb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 12,
+            "currency": "AZN"
+          },
+          "validity": {
+            "prepaid": "28 days",
+            "postpaid": "30 days"
+          },
+          "included": {
+            "internet": {
+              "amount": 6,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video streaming",
+              "approx": "~6 hours"
+            },
+            {
+              "activity": "Video calls",
+              "approx": "~15 hours"
+            },
+            {
+              "activity": "Social networking",
+              "approx": "~80 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "6",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*6#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How to subscribe to the 6GB high-volume internet pack?",
+              "answer": "Azercell provides 3 easy ways to subscribe:\nSubscribe by SMS\nSMS 6 to 2525 .\nEach SMS from prepaid subscribers to 2525 is free.\nEach SMS from postpaid subscribers to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial * 100*6#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "How to deactivate the high-volume internet package?",
+              "answer": "To deactivate the high-volume internet package, prepaid and postpaid subscribers should send stop ay or 0 to 2525 or dial *100*0#YES . In this case, the pack is canceled immediately. When the high-volume package subscription is canceled, the remaining internet is completely reset and internet usage is calculated according to the current tariff plan."
+            },
+            {
+              "question": "Is it possible to cancel the automatic renewal of the high-volume internet package?",
+              "answer": "It is enough to dial *100*00#YES to cancel automatic renewal of the high-volume internet pack."
+            },
+            {
+              "question": "What happens when the internet traffic provided before the expiration of the pack is fully used?",
+              "answer": "Internet access will be deactivated at the end of the validity period or billing cycle of the tariff plan. The subscriber will be redirected to the internet.azercell.com page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. In such cases, the subscriber is redirected to the download page to continue using the mobile Internet.\nAfter redirection the subscriber can choose between three option:\nRenew the existing pack\nOrder a new larger pack\nContinue to use the Internet without pack (1 MB – 0.05 AZN)"
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to order multiple packs on the same day.\nIf the subscriber wishes to order a pack of a volume less than your current pack, he/she must use up at least 95% of the internet traffic in the current pack.\nAs of 03.04.2019, there are no restrictions on ordening a larger internet pack than your current pack."
+            },
+            {
+              "question": "Is the subscription to the current internet pack canceled, when you activate “Gündəlik”, “Limitsiz saat” or “Limitsiz həftəsonu” internet packs?",
+              "answer": "The subscription to the high-volume internet pack is not canceled, when you connect to daily, hourly packs, as well as to packages for weekends, if a monthly subscription to the internet pack is activated."
+            },
+            {
+              "question": "Should the current process be repeated to resubscribe to the same internet package?",
+              "answer": "No, if there are enough funds in the subscriber's account, the system automatically renew the same internet pack at the end of the period of use.\nThe system will try to update the pack automatically within 90 days, if there are not enough funds in the balance of the prepaid subscriber to renew the internet pack,\nThe system checks the line within 90 days after blocking incoming and outgoing calls of postpaid subscribers. If the line has not been activated by the end of this period, the subscription is automatically cancelled."
+            },
+            {
+              "question": "How do I get information about my internet pack balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers."
+            },
+            {
+              "question": "How soon, after subscribing to the new Internet package, will it be activated?",
+              "answer": "The internet pack is activated for both prepaid and post-paid line subscribers immediately after the request is received."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will receive an SMS with confirmation of internet pack activation before you can use it."
+            },
+            {
+              "question": "Is the unused balance of the internet balance transferred to the next day/month?",
+              "answer": "All internet packs expire at the end of the day/month (according to the internet pack) and cannot be transferred to the next day/month."
+            },
+            {
+              "question": "Can I use mobile internet when roaming is active?",
+              "answer": "Yes, it is possible to use the mobile Internet while roaming is active. The internet usage fee will be calculated in accordance with the roaming rates."
+            },
+            {
+              "question": "When is the call itemization (invoice) issued to postpaid subscribers?",
+              "answer": "Postpaid subscribers who subscribe to the internet pack in the current billing cycle will get the subscription fees in the following bill cycle. If the billing cycle is longer than 28 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speed do I get by ordering a 6GB high-volume internet pack?",
+              "answer": "When using high-volume data packs, the internet speed isn’t limited and the subscriber can use the maximum network speed."
+            },
+            {
+              "question": "Is there a 20% discount offer for postpaid subscribers who have the status of an individual?",
+              "answer": "This campaign ended on 27.02.2019."
+            },
+            {
+              "question": "Can I use the high-volume pack benefits together with the benefits from other campaigns?",
+              "answer": "As of 08.02.2016, internet bonuses provided within Samsung, Galaxy Tab and Huawei campaigns are used before the bonuses from other packages. This applies to all prepaid and postpaid subscribers using these packs mentioned below:\n50MB/500MB/1GB/5GB/10GB internet packs\nDaily 500MB internet packs\n10GB=10AZN promotion\n\"GəncOL\" tariff\nIf the data is used up before the end of internet pack respective validity period, internet access will be suspended. The subscriber will then be redirected to www.internet.azercell.com to order a new pack.\nHigh-volume internet packs conditions will be applied once the Data Card and Galaxy Tab campaigns end.\nIf 50GB high-volume internet pack is active on the balance of the subscriber, it will not be possible to use “Sərfəli 10GB” and “Sərfəli 30GB” high-volume internet packs."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order a high-volume Internet Pack?",
+              "answer": "If numbers connected to a hotspot order a high-volume Internet Package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The high-volume internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "Automatic settings:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the cost of each SMS message sent to this number is 0.01 AZN).\nIn response, the system will first send you an information message, and then within 20 minutes the appropriate settings. The settings displayed on the screen must be saved in the phone's memory.\nTo set up new settings and restore Internet access, you need to restart your phone."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "deactivation": {
+            "sms": [
+              "stop ay",
+              "0"
+            ],
+            "sms_number": "2525",
+            "ussd": "*100*0#YES",
+            "cancel_auto_renewal_ussd": "*100*00#YES"
+          }
+        },
+        {
+          "name": "12GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/monthly/12-gb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 19,
+            "currency": "AZN"
+          },
+          "validity": {
+            "prepaid": "28 days",
+            "postpaid": "30 days"
+          },
+          "included": {
+            "internet": {
+              "amount": 12,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video calls",
+              "approx": "~30 hours"
+            },
+            {
+              "activity": "Social networking",
+              "approx": "~160 hours"
+            },
+            {
+              "activity": "Online gaming",
+              "approx": "~300 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "12",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*12#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How to subscribe to the 12GB high-volume internet pack?",
+              "answer": "Azercell provides 3 easy ways to subscribe:\nSubscribe by SMS\nSMS \" 12\" to 2525 .\nEach SMS from prepaid subscribers to 2525 is free.\nEach SMS from postpaid subscribers to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial * 100*12#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "How to deactivate the high-volume internet package?",
+              "answer": "To deactivate the high-volume internet package, prepaid and postpaid subscribers should send stop ay or 0 to 2525 or dial *100*0#YES . In this case, the pack is canceled immediately. When the high-volume package subscription is canceled, the remaining internet is completely reset and internet usage is calculated according to the current tariff plan."
+            },
+            {
+              "question": "Is it possible to cancel the automatic renewal of the high-volume internet package?",
+              "answer": "It is enough to dial *100*00#YES to cancel automatic renewal of the high-volume internet pack."
+            },
+            {
+              "question": "What happens when the internet traffic provided before the expiration of the pack is fully used?",
+              "answer": "Internet access will be deactivated at the end of the validity period or billing cycle of the tariff plan. The subscriber will be redirected to the internet.azercell.com page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. In such cases, the subscriber is redirected to the download page to continue using the mobile Internet.\nAfter redirection the subscriber can choose between three option:\nRenew the existing pack\nOrder a new larger pack\nContinue to use the Internet without pack (1 MB – 0.05 AZN)"
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to order multiple packs on the same day.\nIf the subscriber wishes to order a pack of a volume less than your current pack, he/she must use up at least 95% of the internet traffic in the current pack.\nAs of 03.04.2019, there are no restrictions on ordening a larger internet pack than your current pack."
+            },
+            {
+              "question": "Is the high-volume subscription to the current internet pack canceled, when you activate “Gündəlik”, “Limitsiz saat” or “Limitsiz həftəsonu” internet packs?",
+              "answer": "The subscription to the high-volume internet pack is not canceled, when you connect to daily, hourly packs, as well as to packages for weekends, if a high-volume subscription to the internet pack is activated."
+            },
+            {
+              "question": "Should the current process be repeated every month to resubscribe to the same internet package?",
+              "answer": "No, if there are enough funds in the subscriber's account, the system automatically renew the same internet pack at the end of the period of use.\nThe system will try to update the pack automatically within 90 days, if there are not enough funds in the balance of the prepaid subscriber to renew the internet pack,\nThe system checks the line within 90 days after blocking incoming and outgoing calls of postpaid subscribers. If the line has not been activated by the end of this period, the subscription is automatically cancelled."
+            },
+            {
+              "question": "How do I get information about my internet pack balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers."
+            },
+            {
+              "question": "How soon, after subscribing to the new Internet package, will it be activated?",
+              "answer": "The internet pack is activated for both prepaid and post-paid line subscribers immediately after the request is received."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will receive an SMS with confirmation of internet pack activation before you can use it."
+            },
+            {
+              "question": "Is the unused balance of the internet balance transferred to the next day/month?",
+              "answer": "All internet packs expire at the end of the day/month (according to the internet pack) and cannot be transferred to the next day/month."
+            },
+            {
+              "question": "Can I use mobile internet when roaming is active?",
+              "answer": "Yes, it is possible to use the mobile internet while roaming is active. The internet usage fee will be calculated in accordance with the roaming rates."
+            },
+            {
+              "question": "When is the call itemization (invoice) issued to postpaid subscribers?",
+              "answer": "Postpaid subscribers who subscribe to the internet pack in the current billing cycle will get the subscription fees in the following bill cycle. If the billing cycle is longer than 28 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speed do I get by ordering a 12GB high-volume internet pack?",
+              "answer": "When using high-volume data packs, the internet speed isn’t limited and the subscriber can use the maximum network speed."
+            },
+            {
+              "question": "Is there a 20% discount offer for postpaid subscribers who have the status of an individual?",
+              "answer": "This campaign ended on 27.02.2019."
+            },
+            {
+              "question": "Can I use the high-volume pack benefits together with the benefits from other campaigns?",
+              "answer": "As of 08.02.2016, internet bonuses provided within Samsung, Galaxy Tab and Huawei campaigns are used before the bonuses from other packages. This applies to all prepaid and postpaid subscribers using packs mentioned below:\n50MB/500MB/1GB/5GB/10GB internet packs\nDaily 500MB internet packs\n10GB=10AZN promotion\n\"GəncOL\" tariff\nIf the data is used up before the end of internet pack respective validity period, internet access will be suspended. The subscriber will then be redirected to www.internet.azercell.com to order a new pack.\nHigh-volume internet packs conditions will be applied once the Data Card and Galaxy Tab campaigns end.\nIf 50GB high-volumeinternet pack is active on the balance of the subscriber, it will not be possible to use “Sərfəli 10GB” and “Sərfəli 30GB” high-volumeinternet packs."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order a high-volume Internet Pack?",
+              "answer": "If numbers connected to a hotspot order a high-volume Internet Package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The high-volume internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "Automatic settings:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the cost of each SMS message sent to this number is 0.01 AZN).\nIn response, the system will first send you an information message, and then within 20 minutes the appropriate settings. The settings displayed on the screen must be saved in the phone's memory.\nTo set up new settings and restore Internet access, you need to restart your phone."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "deactivation": {
+            "sms": [
+              "stop ay",
+              "0"
+            ],
+            "sms_number": "2525",
+            "ussd": "*100*0#YES",
+            "cancel_auto_renewal_ussd": "*100*00#YES"
+          }
+        },
+        {
+          "name": "30GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/monthly/30-gb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 29,
+            "currency": "AZN"
+          },
+          "validity": {
+            "prepaid": "28 days",
+            "postpaid": "30 days"
+          },
+          "included": {
+            "internet": {
+              "amount": 30,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video streaming",
+              "approx": "~36 hours"
+            },
+            {
+              "activity": "Video calls",
+              "approx": "~90 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "30",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*30#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How to subscribe to the 30GB high-volume internet pack?",
+              "answer": "Azercell provides 3 easy ways to subscribe:\nSubscribe by SMS\nSMS \" 30\" to 2525 .\nEach SMS from prepaid subscribers to 2525 is free.\nEach SMS from postpaid subscribers to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial * 100*30#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS).\nNote: Corporate subscribers cannot subscribe to a high-volume 30GB internet pack."
+            },
+            {
+              "question": "How to deactivate the high-volume internet package?",
+              "answer": "To deactivate the high-volume internet package, prepaid and postpaid subscribers should send stop ay or 0 to 2525 or dial *100*0#YES . In this case, the pack is canceled immediately. When the high-volume package subscription is canceled, the remaining internet is completely reset and internet usage is calculated according to the current tariff plan."
+            },
+            {
+              "question": "Is it possible to cancel the automatic renewal of the high-volume internet package?",
+              "answer": "It is enough to dial *100*00#YES to cancel automatic renewal of the high-volume internet pack."
+            },
+            {
+              "question": "What happens when the internet traffic provided before the expiration of the pack is fully used?",
+              "answer": "Internet access will be deactivated at the end of the validity period or billing cycle of the tariff plan. The subscriber will be redirected to the internet.azercell.com page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. In such cases, the subscriber is redirected to the download page to continue using the mobile Internet.\nAfter redirection the subscriber can choose between three option:\nRenew the existing pack\nOrder a new larger pack\nContinue to use the Internet without pack (1 MB – 0.05 AZN)"
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to order multiple packs on the same day.\nIf the subscriber wishes to order a pack of a volume less than your current pack, he/she must use up at least 95% of the internet traffic in the current pack.\nAs of 03.04.2019, there are no restrictions on ordening a larger internet pack than your current pack."
+            },
+            {
+              "question": "Is the high-volume subscription to the current internet pack canceled, when you activate “Gündəlik”, “Limitsiz saat” or “Limitsiz həftəsonu” internet packs?",
+              "answer": "The subscription to the high-volume internet pack is not canceled, when you connect to daily, hourly packs, as well as to packages for weekends, if a high-volume subscription to the internet pack is activated."
+            },
+            {
+              "question": "Should the current process be repeated every month to resubscribe to the same internet package?",
+              "answer": "No, if there are enough funds in the subscriber's account, the system automatically renew the same internet pack at the end of the period of use.\nThe system will try to update the pack automatically within 90 days, if there are not enough funds in the balance of the prepaid subscriber to renew the internet pack,\nThe system checks the line within 90 days after blocking incoming and outgoing calls of postpaid subscribers. If the line has not been activated by the end of this period, the subscription is automatically cancelled."
+            },
+            {
+              "question": "How do I get information about my internet pack balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers."
+            },
+            {
+              "question": "How soon, after subscribing to the new Internet package, will it be activated?",
+              "answer": "The internet pack is activated for both prepaid and post-paid line subscribers immediately after the request is received."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will receive an SMS with confirmation of internet pack activation before you can use it."
+            },
+            {
+              "question": "Is the unused balance of the internet balance transferred to the next day/month?",
+              "answer": "All internet packs expire at the end of the day/month (according to the internet pack) and cannot be transferred to the next day/month."
+            },
+            {
+              "question": "Can I use mobile internet when roaming is active?",
+              "answer": "Yes, it is possible to use the mobile internet while roaming is active. The internet usage fee will be calculated in accordance with the roaming rates."
+            },
+            {
+              "question": "When is the call itemization (invoice) issued to postpaid subscribers?",
+              "answer": "Postpaid subscribers who subscribe to the internet pack in the current billing cycle will get the subscription fees in the following bill cycle. If the billing cycle is longer than 28 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speed do I get by ordering a 30GB high-volume internet pack?",
+              "answer": "When using high-volume data packs, the internet speed isn’t limited and the subscriber can use the maximum network speed."
+            },
+            {
+              "question": "Is there a 20% discount offer for postpaid subscribers who have the status of an individual?",
+              "answer": "This campaign ended on 27.02.2019."
+            },
+            {
+              "question": "Can I use the high-volume pack benefits together with the benefits from other campaigns?",
+              "answer": "As of 08.02.2016, internet bonuses provided within Samsung, Galaxy Tab and Huawei campaigns are used before the bonuses from other packages. This applies to all prepaid and postpaid subscribers using packs mentioned below:\n50MB/500MB/1GB/5GB/10GB internet packs\nDaily 500MB internet packs\n10GB=10AZN promotion\n“GəncOL” tariff\nIf the data is used up before the end of internet pack respective validity period, internet access will be suspended. The subscriber will then be redirected to www.internet.azercell.com to order a new pack.\nHigh-volume internet packs conditions will be applied once the Data Card and Galaxy Tab campaigns end.\nIf 50GB high-volume internet pack is active on the balance of the subscriber, it will not be possible to use “Sərfəli 10GB” and “Sərfəli 30GB” high-volume internet packs."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order a high-volume Internet Pack?",
+              "answer": "If numbers connected to a hotspot order a high-volume Internet Package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The high-volume internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "Automatic settings:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the cost of each SMS message sent to this number is 0.01 AZN).\nIn response, the system will first send you an information message, and then within 20 minutes the appropriate settings. The settings displayed on the screen must be saved in the phone's memory.\nTo set up new settings and restore Internet access, you need to restart your phone."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "conditions": [
+            "Corporate subscribers can’t use 30GB high-volume internet pack."
+          ],
+          "auto_renewal": true,
+          "deactivation": {
+            "sms": [
+              "stop ay",
+              "0"
+            ],
+            "sms_number": "2525",
+            "ussd": "*100*0#YES",
+            "cancel_auto_renewal_ussd": "*100*00#YES"
+          }
+        },
+        {
+          "name": "56GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/monthly/56-gb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 39,
+            "currency": "AZN"
+          },
+          "validity": {
+            "prepaid": "28 days",
+            "postpaid": "30 days"
+          },
+          "included": {
+            "internet": {
+              "amount": 56,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video streaming",
+              "approx": "~92 hours (detail page: ~90 hours)"
+            },
+            {
+              "activity": "Video calls",
+              "approx": "~153 hours (detail page: ~150 hours)"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "56",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*56#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How to subscribe to the 56GB high-volume internet pack?",
+              "answer": "Azercell provides 3 easy ways to subscribe:\nSubscribe by SMS\nSMS 56 to 2525 .\nEach SMS from prepaid subscribers to 2525 is free.\nEach SMS from postpaid subscribers to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial *100*56#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "How to deactivate the high-volume internet package?",
+              "answer": "To deactivate the high-volume internet package, prepaid and postpaid subscribers should send stop ay or 0 to 2525 or dial *100*0#YES . In this case, the pack is canceled immediately. When the high-volume package subscription is canceled, the remaining internet is completely reset and internet usage is calculated according to the current tariff plan."
+            },
+            {
+              "question": "Is it possible to cancel the automatic renewal of the high-volume internet package?",
+              "answer": "It is enough to dial *100*00#YES to cancel automatic renewal of the high-volume internet pack."
+            },
+            {
+              "question": "What happens when the internet traffic provided before the expiration of the pack is fully used?",
+              "answer": "Internet access will be deactivated at the end of the validity period or billing cycle of the tariff plan. The subscriber will be redirected to the internet.azercell.com page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. In such cases, the subscriber is redirected to the download page to continue using the mobile Internet.\nAfter redirection the subscriber can choose between three option:\nRenew the existing pack\nOrder a new larger pack\nContinue to use the Internet without pack (1 MB – 0.05 AZN)"
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to order multiple packs on the same day.\nIf the subscriber wishes to order a pack of a volume less than your current pack, he/she must use up at least 95% of the internet traffic in the current pack.\nAs of 03.04.2019, there are no restrictions on ordening a larger internet pack than your current pack."
+            },
+            {
+              "question": "Is the high-volume subscription to the current internet pack canceled, when you activate “Gündəlik”, “Limitsiz saat” or “Limitsiz həftəsonu” internet packs?",
+              "answer": "The subscription to the high-volume internet pack is not canceled, when you connect to daily, hourly packs, as well as to packages for weekends, if a high-volume subscription to the internet pack is activated."
+            },
+            {
+              "question": "Should the current process be repeated every month to resubscribe to the same internet package?",
+              "answer": "No, if there are enough funds in the subscriber's account, the system automatically renew the same internet pack at the end of the period of use.\nThe system will try to update the pack automatically within 90 days, if there are not enough funds in the balance of the prepaid subscriber to renew the internet pack,\nThe system checks the line within 90 days after blocking incoming and outgoing calls of postpaid subscribers. If the line has not been activated by the end of this period, the subscription is automatically cancelled."
+            },
+            {
+              "question": "How do I get information about my internet pack balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers."
+            },
+            {
+              "question": "How soon, after subscribing to the new internet package, will it be activated?",
+              "answer": "The internet pack is activated for both prepaid and post-paid line subscribers immediately after the request is received."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will receive an SMS with confirmation of internet pack activation before you can use it."
+            },
+            {
+              "question": "Is the unused balance of the internet balance transferred to the next day/month?",
+              "answer": "All internet packs expire at the end of the day/month (according to the internet pack) and cannot be transferred to the next day/month."
+            },
+            {
+              "question": "Can I use mobile internet when roaming is active?",
+              "answer": "Yes, it is possible to use the mobile internet while roaming is active. The internet usage fee will be calculated in accordance with the roaming rates."
+            },
+            {
+              "question": "When is the call itemization (invoice) issued to postpaid subscribers?",
+              "answer": "Postpaid subscribers who subscribe to the internet pack in the current billing cycle will get the subscription fees in the following bill cycle. If the billing cycle is longer than 30 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speed do I get by ordering a 56GB high-volume internet pack?",
+              "answer": "When using high-volume data packs, the internet speed isn’t limited and the subscriber can use the maximum network speed."
+            },
+            {
+              "question": "Is there a 20% discount offer for postpaid subscribers who have the status of an individual?",
+              "answer": "This campaign ended on 27.02.2019."
+            },
+            {
+              "question": "Can I use the high-volume pack benefits together with the benefits from other campaigns?",
+              "answer": "As of 08.02.2016, internet bonuses provided within Samsung, Galaxy Tab and Huawei campaigns are used before the bonuses from other packages. This applies to all prepaid and postpaid subscribers using these packs mentioned below:\n50MB/500MB/1GB/5GB/10GB internet packs\nDaily 500MB internet packs\n10GB=10AZN promotion\n\"GəncOL\" tariff\nIf the data is used up before the end of internet pack respective validity period, internet access will be suspended. The subscriber will then be redirected to www.internet.azercell.com to order a new pack.\nHigh-volume internet packs conditions will be applied once the Data Card and Galaxy Tab campaigns end.\nIf 50GB high-volume internet pack is active on the balance of the subscriber, it will not be possible to use “Sərfəli 10GB” and “Sərfəli 30GB” high-volume internet packs."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order a high-volumeInternet Pack?",
+              "answer": "If numbers connected to a hotspot order a high-volume Internet Package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The high-volume internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "Automatic settings:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the cost of each SMS message sent to this number is 0.01 AZN).\nIn response, the system will first send you an information message, and then within 20 minutes the appropriate settings. The settings displayed on the screen must be saved in the phone's memory.\nTo set up new settings and restore Internet access, you need to restart your phone."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "deactivation": {
+            "sms": [
+              "stop ay",
+              "0"
+            ],
+            "sms_number": "2525",
+            "ussd": "*100*0#YES",
+            "cancel_auto_renewal_ussd": "*100*00#YES"
+          }
+        }
+      ]
+    },
+    {
+      "family": "Weekly",
+      "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/weekly.html",
+      "plans": [
+        {
+          "name": "2GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/weekly/2gb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 4,
+            "currency": "AZN"
+          },
+          "validity": "7 days",
+          "included": {
+            "internet": {
+              "amount": 2,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video calls",
+              "approx": "~4 hours"
+            },
+            {
+              "activity": "Social networking",
+              "approx": "~21 hours"
+            },
+            {
+              "activity": "Music streaming",
+              "approx": "~200 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "20",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*2000#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How do I subscribe to the 2GB Weekly internet pack?",
+              "answer": "Azercell gives you 3 easy ways to subscribe:\nSubscribe by SMS\nSMS 20 to 2525 .\nSMSs sent from a Prepaid subscriber to 2525 are free.\nEach SMS from a postpaid subscriber to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial * 100*2000#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "How to deactivate the 1-week internet package?",
+              "answer": "To deactivate the 1-week internet package, Prepaid and Postpaid subscribers should send stop hefte to 2525 or dial *100*0#YES . In this case, the pack is canceled immediately. When the 1-week package subscription is canceled, the remaining internet is completely reset and internet usage is calculated according to the current tariff pack."
+            },
+            {
+              "question": "Is it possible to cancel the automatic renewal of the 1-week internet package?",
+              "answer": "It is enough to dial *100*00#YES to cancel automatic renewal of the a 1-week internet pack."
+            },
+            {
+              "question": "What happens when the internet traffic provided before the expiration of the pack is fully used?",
+              "answer": "Internet access will be deactivated at the end of the validity period or billing cycle of the tariff plan. The subscriber will be redirected to the internet.azercell.com page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. In such cases, the subscriber is redirected to the download page to continue using the mobile Internet.\nAfter redirection the subscriber can choose between three option:\nRenew the existing pack\nOrder a new larger pack\nContinue to use the Internet without pack (1 MB – 0.05 AZN)"
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to purchase multiple packs on the same day.\nIf you wish to purchase a pack of a volume less than your current pack, you must use up at least 95% of the data from the current pack first.\nAs of 03.04.2019, there are no restrictions on purchasing a pack of a volume larger than your current pack."
+            },
+            {
+              "question": "How do I get information about my internet pack balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers."
+            },
+            {
+              "question": "How soon, after subscribing to the new Internet package, will it be activated?How soon, after subscribing to the new Internet package, will it be activated?",
+              "answer": "The internet pack is activated for both prepaid and post-paid line subscribers immediately after the request is received."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will receive an SMS with confirmation of internet pack activation before you can use it."
+            },
+            {
+              "question": "Can I use mobile internet when roaming is active?",
+              "answer": "Yes, it is possible to use the mobile Internet while roaming is active. The internet usage fee will be calculated in accordance with the roaming rates."
+            },
+            {
+              "question": "What internet speed do I get by ordering a 2GB weekly internet pack?",
+              "answer": "When using weekly data packs, the internet speed isn’t limited and the subscriber can use the maximum network speed."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order a Weekly Internet Pack?",
+              "answer": "If numbers connected to a hotspot order a Weekly Internet Package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The weekly internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "For an automatic activation:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the tariff for sending SMS to 9595 is 0.01 AZN).\nYou will first receive an informational message, and then, within the next 20 minutes you will receive Internet settings. Received settings should be saved in the phone memory.\nSwitch off and restart your phone to install the new settings and restore internet access."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "deactivation": {
+            "sms": [
+              "stop hefte"
+            ],
+            "sms_number": "2525",
+            "ussd": "*100*0#YES",
+            "cancel_auto_renewal_ussd": "*100*00#YES"
+          }
+        }
+      ]
+    },
+    {
+      "family": "Daily",
+      "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/daily.html",
+      "plans": [
+        {
+          "name": "350MB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/daily/350-mb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 0.99,
+            "currency": "AZN"
+          },
+          "validity": "24 hours with auto-renewal",
+          "included": {
+            "internet": {
+              "amount": 350,
+              "unit": "MB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Social networking",
+              "approx": "~2 hours"
+            },
+            {
+              "activity": "Web surfing",
+              "approx": "~7 hours"
+            },
+            {
+              "activity": "Chat",
+              "approx": "~7 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "350",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*350#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How to subscribe to the 350MB daily internet pack?",
+              "answer": "Azercell provides 3 easy ways to subscribe:\nSubscribe by SMS\nSMS \" 350\" to 2525 .\nEach SMS from prepaid subscribers to 2525 is free.\nEach SMS from postpaid subscribers to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial *100*350#YES on your phone.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "How do I get information about my internet data balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers. Postpaid users can also check their balance from the next billing cycle."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will have to wait for a confirmation message informing you that the pack has been activated before you can use it."
+            },
+            {
+              "question": "What happens if I use up my internet data before my pack expires?",
+              "answer": "Internet access will be deactivated at the end of the validity period or bill cycle of the tariff plan. You will be redirected to the internet.azercell.com landing page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. When this happens, you are redirected to a landing page with options to continue using data.\nThe landing page presents users with 3 options to continue using data:\nRenew the current pack\nPurchase a new pack\nContinue to use the service without a pack (charged at 0.05 AZN per 1MB)\nThe usage of the internet without pack is charged at the rate of 1MB = 0.20 AZN for \"GəncSim\" and \"Azercellim\" subscribers, and 1MB = 0.40 AZN for other tariff subscribers."
+            },
+            {
+              "question": "Can I carry forward unused internet data to the next day/month?",
+              "answer": "All internet data expires at the end of the day/month (according to the plan) and cannot be rolled over."
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to order multiple packs on the same day.\nIf the subscriber wishes to order a pack of a volume less than your current pack, he/she must use up at least 95% of the internet traffic in the current pack.\nAs of 03.04.2019, there are no restrictions on ordening a larger internet pack than your current pack."
+            },
+            {
+              "question": "Can I use the internet data for roaming?",
+              "answer": "You are free to use the data for roaming. The cost of usage will be charged at roaming rates."
+            },
+            {
+              "question": "I am an Azercell corporate subscriber. Can I buy any internet pack I wish?",
+              "answer": "Corporate subscribers are not eligible for these internet packs:\n1 hour\n3 hour\nDay pack\nNight pack\nDaily renewal (250 MB)\nDaily renewal (500 MB)"
+            },
+            {
+              "question": "Is the 350MB daily internet pack renewed automatically if it is used up within a day?",
+              "answer": "If this happens, the system will attempt to renew the pack the following day. If there is insufficient balance to renew the respective packs, the system will attempt to renew them again after 90 days. If there still is insufficient balance, the subscription will be cancelled."
+            },
+            {
+              "question": "I am a postpaid subscriber. When will I receive my invoice?",
+              "answer": "Postpaid subscribers who purchase an internet pack in the current billing cycle will be invoiced the subscription fees in the following bill cycle. If the billing cycle is longer than 30 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speeds will I get with daily 350MB internet pack?",
+              "answer": "In ideal conditions within areas of 4G (LTE) coverage, subscribers will get:\nDownload: 190 Mbps\nUpload: 95 Mbps\nIn typical conditions within areas of 4G (LTE) coverage, subscribers will get:\nDownload: 27.8 Mbps\nUpload: 18.5 Mbps\nIn ideal conditions within areas of 3G coverage, subscribers will get:\nDownload: 21.6 Mbps"
+            },
+            {
+              "question": "How do I deactivate daily 350MB internet pack?",
+              "answer": "To deactivate the 350MB internet package, you need to send STOP100 to 2525.\nNote: The STOP100 keyword cancels all daily internet packs active on the number.\nIt is possible to stop the daily internet package renewal via USSD code, SMS or the \"Azercell\" application. To do this, simply send MINUS to 2525 or dial *100*00#YES.\nThis service is free for prepaid subscribers. Postpaid subscribers pay 0.01 AZN for each SMS to 2525.\nWhen the pack is canceled, the remaining MB will be completely reset.\nThe usage of the internet without pack is charged according to the current tariff.\nThe amount paid for the package will not be refunded if the package is cancelled."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order an internet pack?",
+              "answer": "If numbers connected to a hotspot order an internet package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "For an automatic activation:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the tariff for sending SMS to 9595 is 0.01 AZN).\nYou will first receive an informational message, and then, within the next 20 minutes you will receive Internet settings. Received settings should be saved in the phone memory.\nSwitch off and restart your phone to install the new settings and restore internet access."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "conditions": [
+            "Not available for corporate subscribers."
+          ]
+        },
+        {
+          "name": "1.5GB",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/daily/1500-mb.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 1.99,
+            "currency": "AZN"
+          },
+          "validity": "24 hours with auto-renewal",
+          "included": {
+            "internet": {
+              "amount": 1.5,
+              "unit": "GB"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [
+            {
+              "activity": "Video call",
+              "approx": "~2 hours"
+            },
+            {
+              "activity": "Social networking",
+              "approx": "~9 hours"
+            }
+          ],
+          "activation": {
+            "sms": {
+              "text": "gun",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*24#YES",
+            "app": "Kabinetim"
+          },
+          "faq": [
+            {
+              "question": "How do I subscribe to the 1.5GB daily internet pack?",
+              "answer": "You can activate the daily 1.5GB internet package in 3 ways:\nSMS gun to 2525\nDial *100*24#YES code on the phone screen\nThrough Kabinetim\nSMS sent to 2525 for prepaid subscribers is free of charge.\nFor postpaid subscribers the service fee is 0.01 AZN."
+            },
+            {
+              "question": "How do I get information about my internet data balance?",
+              "answer": "To get information about your balance, send a blank (empty) SMS to 2525 or dial *100#YES on your phone. This service is provided free of charge for prepaid subscribers and costs 0.01 AZN for postpaid subscribers. Postpaid users can also check their balance from the next billing cycle."
+            },
+            {
+              "question": "Can I use the new internet pack as soon as I subscribe?",
+              "answer": "You will have to wait for a confirmation message informing you that the pack has been activated before you can use it."
+            },
+            {
+              "question": "What happens if I use up my internet data before my pack expires?",
+              "answer": "Internet access will be deactivated at the end of the validity period or bill cycle of the tariff plan. You will be redirected to the internet.azercell.com landing page to activate a new internet pack.\nThe main advantage of this service is the convenience of an automatic renewal reminder when you have used up your data balance. When this happens, you are redirected to a landing page with options to continue using data.\nThe landing page presents users with 3 options to continue using data:\nRenew the current pack\nPurchase a new pack\nContinue to use the service without a pack (charged at 0.05 AZN per 1 MB)"
+            },
+            {
+              "question": "Can I carry forward unused internet data to the next day/month?",
+              "answer": "All internet data expires at the end of the day/month (according to the plan) and cannot be rolled over."
+            },
+            {
+              "question": "Can I order multiple internet packs on the same day?",
+              "answer": "You are free to order multiple packs on the same day.\nIf the subscriber wishes to order a pack of a volume less than your current pack, he/she must use up at least 95% of the internet traffic in the current pack.\nAs of 03.04.2019, there are no restrictions on ordening a larger internet pack than your current pack."
+            },
+            {
+              "question": "Can I use the internet data for roaming?",
+              "answer": "You are free to use the data for roaming. The cost of usage will be charged at roaming rates."
+            },
+            {
+              "question": "I am an Azercell corporate subscriber. Can I buy any internet pack I wish?",
+              "answer": "Corporate subscribers are not eligible for these internet packs:\n1 hour\n3 hour\nDay pack\nNight pack\nDaily renewal (350 MB)\nDaily renewal (1.5GB)"
+            },
+            {
+              "question": "I am a postpaid subscriber. When will I receive my invoice?",
+              "answer": "Postpaid subscribers who purchase an internet pack in the current billing cycle will be invoiced the subscription fees in the following bill cycle. If the billing cycle is longer than 30 days, the next invoice may reflect the charges for both the current and next month’s internet packs."
+            },
+            {
+              "question": "What internet speeds will I get with daily 1000MB internet pack?",
+              "answer": "In ideal conditions within areas of 4G (LTE) coverage, subscribers will get:\nDownload: 190 Mbps\nUpload: 95 Mbps\nIn typical conditions within areas of 4G (LTE) coverage, subscribers will get:\nDownload: 27.8 Mbps\nUpload: 18.5 Mbps\nIn ideal conditions within areas of 3G coverage, subscribers will get:\nDownload: 21.6 Mbps"
+            },
+            {
+              "question": "How do I deactivate 1.5GB daily internet pack?",
+              "answer": "To deactivate 1.5GB daily internet pack, SMS STOP GUN to 2525 . The usage of the internet without pack is charged according to the current tariff.\nThis service is free for prepaid subscribers. Postpaid subscribers pay 0.01 AZN for each SMS to 2525.\nWhen the pack is canceled, the remaining MB will be completely reset.\nThe usage of the internet without pack is charged according to the current tariff.\nThe amount paid for the package will not be refunded if the package is cancelled."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order an internet pack?",
+              "answer": "If numbers connected to a hotspot order an internet package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The internet pack will be active on the main number."
+            },
+            {
+              "question": "Is the 1.5GB daily internet pack renewed automatically if it is used up within a day?",
+              "answer": "If this happens, the system will attempt to renew the pack the following day. If there is insufficient balance to renew the respective packs, the system will attempt to renew them again after 90 days. If there still is insufficient balance, the subscription will be cancelled."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "For an automatic activation:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the tariff for sending SMS to 9595 is 0.01 AZN).\nYou will first receive an informational message, and then, within the next 20 minutes you will receive Internet settings. Received settings should be saved in the phone memory.\nSwitch off and restart your phone to install the new settings and restore internet access."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "auto_renewal": true,
+          "conditions": [
+            "Not available for corporate subscribers."
+          ],
+          "notes": "Activation via SMS 'gun' to 2525, USSD *100*24#YES, or Kabinetim (per detail page)."
+        }
+      ]
+    },
+    {
+      "family": "Unlimited",
+      "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/unlimited.html",
+      "plans": [
+        {
+          "name": "Unlimited 1 hour",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/unlimited/unlimited-1-hour.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 0.99,
+            "currency": "AZN"
+          },
+          "validity": "1 hour",
+          "included": {
+            "internet": {
+              "amount": "unlimited",
+              "unit": null,
+              "duration": "1 hour",
+              "speed": "unlimited"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [],
+          "activation": {
+            "sms": {
+              "text": "S",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*060#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How do I subscribe to an Unlimited Hour internet pack?",
+              "answer": "Azercell gives you 3 easy ways to subscribe:\nSubscribe by SMS\nSMS S to 2525 for the Unlimited 1-hour internet pack.\nSMSs sent from a prepaid subscriber to 2525 are free.\nEach SMS from a postpaid subscriber to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial *100*060#YES on your phone for the Unlimited 1-hour internet pack.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "What internet speeds will I get with this internet data plan?",
+              "answer": "Subscribers will enjoy unlimited download speed."
+            },
+            {
+              "question": "Can I use multiple internet packs at the same time?",
+              "answer": "It is only possible to use a single internet pack at a time."
+            },
+            {
+              "question": "What happens at the end of the validity period of the internet pack?",
+              "answer": "When the 1 and 3 hour validity period of the data package expires, internet access is immediately suspended and the subscriber is redirected to the internet.azercell.com website.\nInternet usage without a package is charged according to the current tariff."
+            },
+            {
+              "question": "I am a corporate Azercell subscriber. Can I purchase any Unlimited hour internet pack?",
+              "answer": "Corporate subscribers may purchase any Unlimited hour pack except the Unlimited 6-hour pack."
+            },
+            {
+              "question": "What are the updated costs of the Unlimited 1-hour packs?",
+              "answer": "As of 01.07.2025, the price of the “Unlimited 1 hour” internet package is 0.99 AZN.\nAll prices include VAT and are intended for both Prepaid and Postpaid subscribers."
+            },
+            {
+              "question": "How do I deactivate \"Unlimited 1 hour\" internet pack?",
+              "answer": "The pack can be deactivated through \"Azercell\" app. Dial *110# to get a direct link to download the app."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order an internet pack?",
+              "answer": "If numbers connected to a hotspot order an internet package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "For an automatic activation:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the tariff for sending SMS to 9595 is 0.01 AZN).\nYou will first receive an informational message, and then, within the next 20 minutes you will receive Internet settings. Received settings should be saved in the phone memory.\nSwitch off and restart your phone to install the new settings and restore internet access."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "conditions": [
+            "Price 0.99 AZN as of 01.07.2025 (VAT incl., prepaid and postpaid).",
+            "Internet suspended immediately at end of period.",
+            "Deactivate via Azercell app."
+          ]
+        },
+        {
+          "name": "Unlimited 3 hours",
+          "url": "https://azercell.com/en/personal/plans-and-services/internet-pack/unlimited/3-hours.html",
+          "line_type": "prepaid and postpaid",
+          "price": {
+            "amount": 1.99,
+            "currency": "AZN"
+          },
+          "validity": "3 hours",
+          "included": {
+            "internet": {
+              "amount": "unlimited",
+              "unit": null,
+              "duration": "3 hours",
+              "speed": "unlimited"
+            },
+            "voice_minutes": null,
+            "sms": null,
+            "other": []
+          },
+          "usage_estimates": [],
+          "activation": {
+            "sms": {
+              "text": "3S",
+              "number": "2525",
+              "cost": "free for prepaid; 0.01 AZN for postpaid"
+            },
+            "ussd": "*100*180#YES",
+            "app": "Azercell app"
+          },
+          "faq": [
+            {
+              "question": "How do I subscribe to an Uimited 3 hours internet pack?",
+              "answer": "Azercell gives you 3 easy ways to subscribe:\nSubscribe by SMS\nSMS 3S to 2525 for the Unlimited 3 hours internet pack.\nSMSs sent from a prepaid subscriber to 2525 are free.\nEach SMS from a postpaid subscriber to 2525 costs 0.01 AZN.\nSubscribe by USSD Code\nDial *100*180#YES on your phone for the Unlimited 3 hours internet pack.\nSubscribe by \"Azercell\" app\nYou can also order an internet pack through the \"Azercell\" app. Dial *110# to get a direct download link to the app (available on Android and iOS)."
+            },
+            {
+              "question": "What internet speeds will I get with this internet data plan?",
+              "answer": "Subscribers will enjoy unlimited download speed."
+            },
+            {
+              "question": "Can I use multiple internet packs at the same time?",
+              "answer": "It is only possible to use a single internet pack at a time."
+            },
+            {
+              "question": "What happens at the end of the validity period of the internet pack?",
+              "answer": "When the 1 and 3 hour validity period of the data package expires, internet access is immediately suspended and the subscriber is redirected to the internet.azercell.com website.\nInternet usage without a package is charged according to the current tariff."
+            },
+            {
+              "question": "I am a corporate Azercell subscriber. Can I purchase any Unlimited hour internet pack?",
+              "answer": "Corporate subscribers may purchase any Unlimited hour pack except the Unlimited 6-hour pack."
+            },
+            {
+              "question": "How do I deactivate \"Unlimited 3 hour\" internet pack?",
+              "answer": "The pack can be deactivated through \"Azercell\" app. Dial *110# to get a direct link to download the app."
+            },
+            {
+              "question": "Can numbers connected to the internet via a hotspot order an internet pack?",
+              "answer": "If numbers connected to a hotspot order an internet package from appropriate sources, the service fee will be deducted from the balance of the number sharing the internet. The internet pack will be active on the main number."
+            },
+            {
+              "question": "Automatic Settings",
+              "answer": "For an automatic activation:\nTo receive the automatic configuration settings simply send an empty SMS message to 9595 (the tariff for sending SMS to 9595 is 0.01 AZN).\nYou will first receive an informational message, and then, within the next 20 minutes you will receive Internet settings. Received settings should be saved in the phone memory.\nSwitch off and restart your phone to install the new settings and restore internet access."
+            },
+            {
+              "question": "Manual Settings",
+              "answer": "You can also install the updated settings manually. The steps to follow depend on the device that you are using.\nAndroid Phones:\nGo to Settings\n> Other settings (Other networks, More)\n> Mobile networks\n> Access Point Names\n> New APN\n> Name: Type “Azercell Internet”, APN: Type “Internet”\nPress ‘Save’ and exit.\nAndroid Tablets:\nGo to Settings\n> More settings\n> Mobile networks\n> Access point names\n> Create New APN\nName: Azercell internet\nAPN: internet\nAPN type: default, hipri/default supl/default\nAzercell Internet and Mobile networks must be activated after the configurations are stored in the device memory.\niOS Devices:\nGo to Settings\n> Mobile network\n> Mobile data network\n> Apn: Type “Internet”\nSwitch off and restart the device.\nXiaomi Devices:\nGo to Settings\n> Sim card and Mobile networks\n> Sim card settings\n> Azercell\n> Access point names\n> In the new APN, type “Azercell” in the Name field and “Internet” in the APN field\nCheck which slot the Azercell SIM is in. Go to Sim Manager> Data Service Network and select the SIM card where the number is located."
+            }
+          ],
+          "conditions": [
+            "Internet suspended immediately at end of period.",
+            "Deactivate via Azercell app."
+          ]
+        }
+      ]
+    }
+  ]
+}
