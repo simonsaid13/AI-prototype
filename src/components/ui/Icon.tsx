@@ -22,6 +22,8 @@ const icons = {
 
 export type IconName = keyof typeof icons;
 
+export const iconNames = Object.keys(icons) as IconName[];
+
 type IconProps = {
   name: IconName;
   size?: number;

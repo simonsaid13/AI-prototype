@@ -1,0 +1,41 @@
+---
+description: Every component must appear on the in-app Design System page
+alwaysApply: true
+---
+
+# Design System page
+
+The app has a Design System page (menu → "Open Design System"). It lists every component from `src/components/` with a live thumbnail, name, short description, and all its states.
+
+The list lives in one file: `src/design-system/catalog.tsx`.
+
+## When you add or change a component
+
+- New component in `src/components/` → add an entry to `catalog` in the same change. No exceptions.
+- New state or variant on an existing component → add a state to its entry.
+- Renamed or deleted component → rename or remove its entry.
+
+## Entry shape
+
+```tsx
+{
+  id: 'chip',                 // url-safe, unique
+  name: 'Chip',               // same as the component name
+  group: 'Buttons',           // one of `groups`; add a new group only if none fits
+  description: 'Small pill that marks a choice.', // one plain sentence
+  keywords: ['tag', 'pill'],  // words people might search for
+  states: [
+    { label: 'Default', render: () => <Chip label="5GB" onPress={() => showToast('Pressed')} /> },
+    { label: 'Selected', render: () => <ChipDemo initialSelected /> },
+    { label: 'Disabled', render: () => <Chip label="5GB" disabled /> },
+  ],
+}
+```
+
+- The first state is also the list thumbnail. Make it the most typical look.
+- States must be the real component, never a drawing of it. They must be tappable and react like in the app. Use a small `...Demo` wrapper with `useState` when a state needs memory.
+- Set `backdrop: true` for glass parts so the glass is visible.
+- Set `edgeToEdge: true` for parts that already add the screen side padding.
+- Use theme tokens, not raw hex or font sizes.
+
+Run `npx tsc --noEmit` and `npx expo lint` after editing the catalog.

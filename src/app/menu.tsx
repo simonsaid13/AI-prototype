@@ -3,11 +3,13 @@ import { useMemo, useState } from 'react';
 import { FlatList, StyleSheet, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { AppText, Backdrop, GlassButton, PressScale } from '@/components/ui';
+import { AppText, Backdrop, Button, GlassButton, PressScale } from '@/components/ui';
 import { useNow } from '@/hooks/useNow';
 import { useChats, type Chat } from '@/store/chats';
 import { useTheme } from '@/theme';
 import { timeAgo } from '@/utils/time';
+
+const FAB_HEIGHT = 48;
 
 export default function MenuScreen() {
   const { colors, typography, spacing, radius } = useTheme();
@@ -15,6 +17,7 @@ export default function MenuScreen() {
   const chats = useChats((s) => s.chats);
   const [query, setQuery] = useState('');
   const now = useNow();
+  const fabBottom = Math.max(insets.bottom, spacing.lg);
 
   const list = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -69,7 +72,7 @@ export default function MenuScreen() {
         keyExtractor={(c) => c.id}
         keyboardDismissMode="on-drag"
         keyboardShouldPersistTaps="handled"
-        contentContainerStyle={{ paddingTop: spacing.lg, paddingBottom: insets.bottom + spacing.xl, gap: spacing.sm }}
+        contentContainerStyle={{ paddingTop: spacing.lg, paddingBottom: fabBottom + FAB_HEIGHT + spacing.lg, gap: spacing.sm }}
         ListHeaderComponent={
           <AppText variant="bodyStrong" style={{ paddingHorizontal: spacing.gutter, paddingVertical: spacing.sm }}>
             Recent conversations
@@ -82,6 +85,14 @@ export default function MenuScreen() {
         }
         renderItem={({ item }) => <ConversationRow chat={item} now={now} onPress={() => open(item.id)} />}
       />
+
+      <View pointerEvents="box-none" style={[styles.fab, { bottom: fabBottom }]}>
+        <Button
+          label="Open Design System"
+          onPress={() => router.push('/design-system')}
+          style={{ boxShadow: `0 4px 12px ${colors.shadow}` }}
+        />
+      </View>
     </View>
   );
 }
@@ -124,6 +135,12 @@ const styles = StyleSheet.create({
   metaRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  fab: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
     alignItems: 'center',
   },
 });

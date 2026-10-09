@@ -26,11 +26,14 @@ Read these every time. Do not trust an earlier chat.
 | Spacing and corners | `src/theme/spacing.ts` — `spacing`, `radius` |
 | Theme hook | `src/theme/index.ts` — `useTheme()` |
 | Parts | `src/components/ui/` and the rest of `src/components/` |
-| Part list | `src/components/ui/index.ts` |
+| Part list | `src/components/ui/index.ts`, `src/components/chat/index.ts` |
+| Design System page | `src/design-system/catalog.tsx` — every part, its group and its states |
 
-Current parts: `AppText`, `Button`, `IconButton`, `TextField`, `Screen`. Treat that list as a hint. The folders are the source of truth.
+The catalog is the quickest full list of parts and states. The folders are still the source of truth.
 
 Screens go in `src/app/`. New reusable parts go in `src/components/ui/` and must be exported from `src/components/ui/index.ts`.
+
+Every part you create or change from Figma must also be added to or updated in `src/design-system/catalog.tsx`, with one state per Figma variant. Follow `.cursor/rules/design-system-catalog.mdc`.
 
 ## Check, then build
 
@@ -40,6 +43,7 @@ Screens go in `src/app/`. New reusable parts go in `src/components/ui/` and must
 4. Show the report below.
 5. If any row is a conflict, stop and wait. Do not build those pieces yet.
 6. If nothing conflicts, reuse matches and create what is missing, then build.
+7. Add every new part, and every new state of an existing part, to the Design System catalog.
 
 ## How to decide
 

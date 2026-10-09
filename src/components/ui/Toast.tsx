@@ -26,29 +26,35 @@ export function showToast(message: string) {
 const enter = FadeInUp.duration(220);
 const exit = FadeOutUp.duration(160);
 
-export function Toaster() {
+export function ToastBubble({ message }: { message: string }) {
   const { colors, spacing, radius } = useTheme();
+
+  return (
+    <View
+      style={{
+        backgroundColor: colors.textPrimary,
+        borderRadius: radius.pill,
+        paddingHorizontal: spacing.lg,
+        paddingVertical: spacing.sm,
+      }}
+    >
+      <AppText variant="bodySmall" color="textOnPrimary">
+        {message}
+      </AppText>
+    </View>
+  );
+}
+
+export function Toaster() {
+  const { spacing } = useTheme();
   const insets = useSafeAreaInsets();
   const { message, key } = useToastStore();
 
   return (
     <View pointerEvents="none" style={[styles.host, { top: insets.top + 56, paddingHorizontal: spacing.gutter }]}>
       {message && (
-        <Animated.View
-          key={key}
-          entering={enter}
-          exiting={exit}
-          accessibilityLiveRegion="polite"
-          style={{
-            backgroundColor: colors.textPrimary,
-            borderRadius: radius.pill,
-            paddingHorizontal: spacing.lg,
-            paddingVertical: spacing.sm,
-          }}
-        >
-          <AppText variant="bodySmall" color="textOnPrimary">
-            {message}
-          </AppText>
+        <Animated.View key={key} entering={enter} exiting={exit} accessibilityLiveRegion="polite">
+          <ToastBubble message={message} />
         </Animated.View>
       )}
     </View>
